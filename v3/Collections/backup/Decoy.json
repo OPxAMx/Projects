@@ -1,0 +1,127 @@
+[
+  {
+    "id": "18442",
+    "type": "film",
+    "title": "Sœurs de glace",
+    "description": "L'arrivée de nouvelles élèves sexy va bouleverser le destin de deux étudiants ( Luke et Roger ) bien décidés à perdre leur virginité. Mais lorsqu'un élève est retrouvé mort littéralement congelé sur le campus, Luke commence à avoir des soupçons sur la vraie nature de ses magnifiques blondes avec l'aide de son amie Alex ils sont prêts à tout pour révéler leur réelle identité ....",
+    "tags": [
+      "Horreur",
+      "Science-Fiction",
+      "Thriller"
+    ],
+    "thumbnail": "https://image.tmdb.org/t/p/w500/5bc2xnVwTsYm3bonHLxwX5rfVSX.jpg",
+    "embed": {
+      "provider": "vidking",
+      "iframe": "<iframe src=\"https://www.vidking.net/embed/movie/18442\" allowfullscreen></iframe>",
+      "url": "https://www.vidking.net/embed/movie/18442-decoys"
+    },
+    "meta": {
+      "duration": "",
+      "author": "Piégés",
+      "date_added": "27 février 2004",
+      "source": "TMDB"
+    },
+    "original_title": "Decoys",
+    "description_fr": "L'arrivée de nouvelles élèves sexy va bouleverser le destin de deux étudiants ( Luke et Roger ) bien décidés à perdre leur virginité. Mais lorsqu'un élève est retrouvé mort littéralement congelé sur le campus, Luke commence à avoir des soupçons sur la vraie nature de ses magnifiques blondes avec l'aide de son amie Alex ils sont prêts à tout pour révéler leur réelle identité ....",
+    "backdrop": "https://image.tmdb.org/t/p/w500/nJ3fpugCXF3AgUUVDUCLfHceuTq.jpg",
+    "release_date": "2004-02-27",
+    "runtime": 95,
+    "vote_average": 4.897,
+    "popularity": 1.3151,
+    "status": "Released",
+    "homepage": "",
+    "language": "en",
+    "genres": [
+      "Horreur",
+      "Science-Fiction",
+      "Thriller"
+    ],
+    "production_companies": [
+      "Téléfilm Canada",
+      "Sound Venture Productions",
+      "Sci-Fi Productions",
+      "Super Écran",
+      "The Movie Network",
+      "Movie Central",
+      "Christal Films"
+    ],
+    "source": "TMDb API",
+    "tmdb_id": "18442",
+    "cast": [
+      "Kim Poirier",
+      "Stefanie von Pfetten",
+      "Corey Sevier",
+      "Elias Toufexis",
+      "Meghan Ory",
+      "Ennis Esmer",
+      "Krista Morin",
+      "Marc Trottier",
+      "Carrie Colak",
+      "Richard Burgi"
+    ],
+    "director": "Matthew Hastings",
+    "producers": [
+      "Tom Berry",
+      "Franco Battista"
+    ]
+  },
+  {
+    "id": "18443",
+    "type": "film",
+    "title": "Decoys 2 : Alien Seduction",
+    "description": "Dans une université, plusieurs étudiants sont retrouvés morts dans des circonstances étranges. Suite au décès de son ami, Sam décide de mener l'enquête et découvre que plusieurs étudiantes sont des extraterrestres. Ces dernières n'ont qu'un objectif : se reproduire pour faire perdurer leur espèce...",
+    "tags": [
+      "Horreur",
+      "Science-Fiction"
+    ],
+    "thumbnail": "https://image.tmdb.org/t/p/w500/jFPZDQ0Jq1QXWpUzCajiSZkswIK.jpg",
+    "embed": {
+      "provider": "vidking",
+      "iframe": "<iframe src=\"https://www.vidking.net/embed/movie/18443\" allowfullscreen></iframe>",
+      "url": "https://www.vidking.net/embed/movie/18443-decoys-2-alien-seduction"
+    },
+    "meta": {
+      "duration": "",
+      "author": "Piégés : la deuxième séduction",
+      "date_added": "6 mars 2007",
+      "source": "TMDB"
+    },
+    "original_title": "Decoys 2: Alien Seduction",
+    "description_fr": "Dans une université, plusieurs étudiants sont retrouvés morts dans des circonstances étranges. Suite au décès de son ami, Sam décide de mener l'enquête et découvre que plusieurs étudiantes sont des extraterrestres. Ces dernières n'ont qu'un objectif : se reproduire pour faire perdurer leur espèce...",
+    "backdrop": "https://image.tmdb.org/t/p/w500/vr2B7YO2E8EDgkiR3uouPZVCpxQ.jpg",
+    "release_date": "2007-03-06",
+    "runtime": 94,
+    "vote_average": 5.179,
+    "popularity": 0.9876,
+    "status": "Released",
+    "homepage": "",
+    "language": "en",
+    "genres": [
+      "Horreur",
+      "Science-Fiction"
+    ],
+    "production_companies": [
+      "Decoys Production",
+      "Alian Girls Films"
+    ],
+    "source": "TMDb API",
+    "tmdb_id": "18443",
+    "cast": [
+      "Kim Poirier",
+      "Corey Sevier",
+      "Tobin Bell",
+      "Tyler Johnston",
+      "Dina Meyer",
+      "Lindsay Maxwell",
+      "Reamonn Joshee",
+      "Sam Easton",
+      "Kailin See",
+      "Ryan Ash"
+    ],
+    "director": "Jeffery Scott Lando",
+    "producers": [
+      "Tom Berry",
+      "Franco Battista"
+    ]
+  }
+]

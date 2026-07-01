@@ -1,0 +1,275 @@
+[
+  {
+    "id": "138843",
+    "type": "film",
+    "title": "Conjuring : Les Dossiers Warren",
+    "description": "Avant Amityville, il y avait Harrisville… Conjuring : Les dossiers Warren, raconte l'histoire horrible, mais vraie, d'Ed et Lorraine Warren, enquêteurs paranormaux réputés dans le monde entier, venus en aide à une famille terrorisée par une présence inquiétante dans leur ferme isolée… Contraints d'affronter une créature démoniaque d'une force redoutable, les Warren se retrouvent face à l'affaire la plus terrifiante de leur carrière.",
+    "tags": [
+      "Horreur",
+      "Thriller"
+    ],
+    "thumbnail": "https://image.tmdb.org/t/p/w500/vOnTvcSsxdJWL9xgauljHHmFSN4.jpg",
+    "embed": {
+      "provider": "",
+      "iframe": "<iframe src=\"https://www.vidking.net/embed/movie/138843\" allowfullscreen></iframe>",
+      "url": "https://www.vidking.net/embed/movie/138843-the-conjuring",
+      "iframe_fr": "<iframe src=\"\" allowfullscreen></iframe>",
+      "url_fr": ""
+    },
+    "meta": {
+      "duration": "",
+      "author": "",
+      "date_added": "",
+      "source": "Tmdb"
+    },
+    "original_title": "The Conjuring",
+    "description_fr": "Avant Amityville, il y avait Harrisville… Conjuring : Les dossiers Warren, raconte l'histoire horrible, mais vraie, d'Ed et Lorraine Warren, enquêteurs paranormaux réputés dans le monde entier, venus en aide à une famille terrorisée par une présence inquiétante dans leur ferme isolée… Contraints d'affronter une créature démoniaque d'une force redoutable, les Warren se retrouvent face à l'affaire la plus terrifiante de leur carrière.",
+    "backdrop": "https://image.tmdb.org/t/p/w500/ecKQlAEG95k62SMGhvX83oEqANK.jpg",
+    "release_date": "2013-07-18",
+    "runtime": 112,
+    "vote_average": 7.54,
+    "popularity": 19.2369,
+    "status": "Released",
+    "homepage": "",
+    "language": "en",
+    "genres": [
+      "Horreur",
+      "Thriller"
+    ],
+    "production_companies": [
+      "Evergreen Media Group",
+      "The Safran Company",
+      "New Line Cinema"
+    ],
+    "source": "TMDb API",
+    "tmdb_id": "138843",
+    "cast": [
+      "Vera Farmiga",
+      "Patrick Wilson",
+      "Lili Taylor",
+      "Ron Livingston",
+      "Hayley McFarland",
+      "Sterling Jerins",
+      "Shanley Caswell",
+      "Mackenzie Foy",
+      "Joey King",
+      "Kyla Deaver"
+    ],
+    "director": "James Wan",
+    "producers": [
+      "Tony DeRosa-Grund",
+      "Peter Safran",
+      "Rob Cowan",
+      "Dave Neustadter",
+      "Walter Hamada"
+    ]
+  },
+  {
+    "id": "259693",
+    "type": "film",
+    "title": "Conjuring 2 : Le Cas Enfield",
+    "description": "Ce thriller paranormal nous présente une nouvelle fois un cas réel tiré des archives des célèbres démonologues Ed et Lorraine Warren. Dans le cadre de l'une de leurs enquêtes les plus terrifiantes, ils se rendent dans le nord de Londres pour aider une mère célibataire qui élève ses quatre enfants dans une maison hantée par des esprits maléfiques.",
+    "tags": [
+      "Horreur"
+    ],
+    "thumbnail": "https://image.tmdb.org/t/p/w500/oHQRX1zrBH1Li5JNbNJSUi0h22d.jpg",
+    "embed": {
+      "provider": "",
+      "iframe": "<iframe src=\"https://www.vidking.net/embed/movie/259693\" allowfullscreen></iframe>",
+      "url": "https://www.vidking.net/embed/movie/259693-the-conjuring-2",
+      "iframe_fr": "<iframe src=\"\" allowfullscreen></iframe>",
+      "url_fr": ""
+    },
+    "meta": {
+      "duration": "",
+      "author": "",
+      "date_added": "",
+      "source": "Tmdb"
+    },
+    "original_title": "The Conjuring 2",
+    "description_fr": "Ce thriller paranormal nous présente une nouvelle fois un cas réel tiré des archives des célèbres démonologues Ed et Lorraine Warren. Dans le cadre de l'une de leurs enquêtes les plus terrifiantes, ils se rendent dans le nord de Londres pour aider une mère célibataire qui élève ses quatre enfants dans une maison hantée par des esprits maléfiques.",
+    "backdrop": "https://image.tmdb.org/t/p/w500/mFCS5OuhPYT79KXu5jl7RqznPR1.jpg",
+    "release_date": "2016-06-08",
+    "runtime": 133,
+    "vote_average": 7.293,
+    "popularity": 12.6591,
+    "status": "Released",
+    "homepage": "",
+    "language": "en",
+    "genres": [
+      "Horreur"
+    ],
+    "production_companies": [
+      "New Line Cinema",
+      "The Safran Company",
+      "Atomic Monster",
+      "RatPac Entertainment"
+    ],
+    "source": "TMDb API",
+    "tmdb_id": "259693",
+    "cast": [
+      "Vera Farmiga",
+      "Patrick Wilson",
+      "Madison Wolfe",
+      "Frances O'Connor",
+      "Lauren Esposito",
+      "Benjamin Haigh",
+      "Patrick McAuley",
+      "Sterling Jerins",
+      "Bonnie Aarons",
+      "Simon McBurney"
+    ],
+    "director": "James Wan",
+    "producers": [
+      "Toby Emmerich",
+      "Richard Brener",
+      "Dave Neustadter",
+      "Rob Cowan",
+      "Peter Safran",
+      "Walter Hamada",
+      "James Wan",
+      "Steven Mnuchin"
+    ]
+  },
+  {
+    "id": "423108",
+    "type": "film",
+    "title": "Conjuring : Sous l'emprise du Diable",
+    "description": "Une histoire de meurtre bouleverse Ed et Lorraine Warren. L'âme d'un jeune garçon est menacée et pour la première fois aux États-Unis, un accusé de meurtre plaide la possession démoniaque comme défense.",
+    "tags": [
+      "Horreur",
+      "Mystère",
+      "Thriller"
+    ],
+    "thumbnail": "https://image.tmdb.org/t/p/w500/k0JaMRifwHCk9b1T12koZKqXnnS.jpg",
+    "embed": {
+      "provider": "Plex",
+      "iframe": "<iframe src=\"https://www.vidking.net/embed/movie/423108\" allowfullscreen></iframe>",
+      "url": "https://www.vidking.net/embed/movie/423108-the-conjuring-the-devil-made-me-do-it",
+      "iframe_fr": "<iframe src=\"\" allowfullscreen></iframe>",
+      "url_fr": ""
+    },
+    "meta": {
+      "duration": "",
+      "author": "",
+      "date_added": "",
+      "source": "Tmdb"
+    },
+    "original_title": "The Conjuring: The Devil Made Me Do It",
+    "description_fr": "Une histoire de meurtre bouleverse Ed et Lorraine Warren. L'âme d'un jeune garçon est menacée et pour la première fois aux États-Unis, un accusé de meurtre plaide la possession démoniaque comme défense.",
+    "backdrop": "https://image.tmdb.org/t/p/w500/p26c040MErns7DJYhisa1CpVB5i.jpg",
+    "release_date": "2021-05-25",
+    "runtime": 112,
+    "vote_average": 7.349,
+    "popularity": 9.4215,
+    "status": "Released",
+    "homepage": "",
+    "language": "en",
+    "genres": [
+      "Horreur",
+      "Mystère",
+      "Thriller"
+    ],
+    "production_companies": [
+      "New Line Cinema",
+      "The Safran Company",
+      "Atomic Monster"
+    ],
+    "source": "TMDb API",
+    "tmdb_id": "423108",
+    "cast": [
+      "Vera Farmiga",
+      "Patrick Wilson",
+      "Sterling Jerins",
+      "Sarah Catherine Hook",
+      "Ruairí O'Connor",
+      "Julian Hilliard",
+      "Charlene Amoia",
+      "John Noble",
+      "Eugenie Bondurant",
+      "Shannon Kook"
+    ],
+    "director": "Michael Chaves",
+    "producers": [
+      "James Wan",
+      "Peter Safran",
+      "Judson Scott",
+      "Victoria Palmeri",
+      "Dave Neustadter",
+      "Michelle Morrissey",
+      "Michael Clear",
+      "Richard Brener"
+    ]
+  },
+  {
+    "id": "1038392",
+    "type": "film",
+    "title": "Conjuring : L'Heure du jugement",
+    "description": "Alors qu’ils espéraient une nouvelle vie, Ed et Lorraine Warren se voient impliqués dans une dernière enquête…qu’ils n’auraient jamais dû accepter. Dans la maison de la famille Smurl, un mal ancien les attend. Un ennemi qu’ils croyaient à jamais enfoui... Découvrez comment les Warren ont affronté le cas le plus maléfique de leur carrière, inspiré de faits réels qui ont terrorisé l’Amérique.",
+    "tags": [
+      "Horreur"
+    ],
+    "thumbnail": "https://image.tmdb.org/t/p/w500/mlkMH0Em29I0QBc7YeRc9yGFRKw.jpg",
+    "embed": {
+      "provider": "Crave",
+      "iframe": "<iframe src=\"https://www.vidking.net/embed/movie/1038392\" allowfullscreen></iframe>",
+      "url": "https://www.vidking.net/embed/movie/1038392-the-conjuring-last-rites",
+      "iframe_fr": "<iframe src=\"\" allowfullscreen></iframe>",
+      "url_fr": ""
+    },
+    "meta": {
+      "duration": "",
+      "author": "",
+      "date_added": "",
+      "source": "Tmdb"
+    },
+    "original_title": "The Conjuring: Last Rites",
+    "description_fr": "Alors qu’ils espéraient une nouvelle vie, Ed et Lorraine Warren se voient impliqués dans une dernière enquête…qu’ils n’auraient jamais dû accepter. Dans la maison de la famille Smurl, un mal ancien les attend. Un ennemi qu’ils croyaient à jamais enfoui... Découvrez comment les Warren ont affronté le cas le plus maléfique de leur carrière, inspiré de faits réels qui ont terrorisé l’Amérique.",
+    "backdrop": "https://image.tmdb.org/t/p/w500/i8MupUe4xgmYXoRNAQMYvuoexSU.jpg",
+    "release_date": "2025-09-03",
+    "runtime": 135,
+    "vote_average": 6.9,
+    "popularity": 29.1342,
+    "status": "Released",
+    "homepage": "https://newsroom.warnerbros.fr/untitled-conjuring-finale",
+    "language": "en",
+    "genres": [
+      "Horreur"
+    ],
+    "production_companies": [
+      "New Line Cinema",
+      "Domain Entertainment",
+      "The Safran Company",
+      "Atomic Monster"
+    ],
+    "source": "TMDb API",
+    "tmdb_id": "1038392",
+    "cast": [
+      "Patrick Wilson",
+      "Vera Farmiga",
+      "Mia Tomlinson",
+      "Ben Hardy",
+      "Rebecca Calder",
+      "Tilly Walker",
+      "Elliot Cowan",
+      "Shannon Kook",
+      "Steve Coulter",
+      "Kíla Lord Cassidy"
+    ],
+    "director": "Michael Chaves",
+    "producers": [
+      "James Wan",
+      "Peter Safran",
+      "Judson Scott",
+      "Michael Clear",
+      "Natalia Safran",
+      "John Rickard",
+      "Hans Ritter",
+      "David Leslie Johnson-McGoldrick",
+      "Michael Chaves",
+      "Pete Chiappetta",
+      "Andrew Lary",
+      "Anthony Tittanegro"
+    ]
+  }
+]

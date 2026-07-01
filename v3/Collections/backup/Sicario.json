@@ -1,0 +1,71 @@
+[
+  {
+    "id": "273481",
+    "type": "film",
+    "title": "sicario",
+    "description": "Dans une zone sans foi ni loi entre les États-Unis et le Mexique, les membres d’une escouade tactique gouvernementale enrôlent une jeune agente idéaliste du FBI qu’ils envoient en plein cœur de l’univers sanglant du trafic international de stupéfiants, afin de neutraliser le chef du cartel mexicain.",
+    "tags": [
+      "sicario",
+      "2015",
+      "Sicario"
+    ],
+    "thumbnail": "https://media.themoviedb.org/t/p/w440_and_h660_face/uYMvoFiatbs1G3ybN8Wd8VpJWxn.jpg",
+    "embed": {
+      "provider": "vidking",
+      "iframe": "<iframe src=\"https://www.vidking.net/embed/movie/273481\" allowfullscreen></iframe>",
+      "url": "https://www.vidking.net/embed/movie/273481-sicario"
+    },
+    "meta": {
+      "duration": "",
+      "author": "Sicario",
+      "date_added": "25 septembre 2015",
+      "source": "TMDB"
+    }
+  },
+  {
+    "id": "400535",
+    "type": "film",
+    "title": "Sicario: Day of the Soldado",
+    "description": "Après un attentat meurtrier au Kansas, les services du renseignement découvrent que des terroristes musulmans entrent sur le territoire américain en utilisant les réseaux de trafic humain des cartels mexicains. Le gouvernement confie à Matt Graver la mission secrète d’affaiblir les organisations criminelles. En collaboration avec Alejandro, un ancien avocat devenu mercenaire, Graver prépare un plan machiavélique visant à déclencher une guerre entre les cartels.",
+    "tags": [
+      "sicario-day-of-the-soldado",
+      "2018",
+      "Sicario : Le jour du soldat"
+    ],
+    "thumbnail": "https://media.themoviedb.org/t/p/w440_and_h660_face/7eEJmo3nD33MJdPwcQFE7SFyMPs.jpg",
+    "embed": {
+      "provider": "vidking",
+      "iframe": "<iframe src=\"https://www.vidking.net/embed/movie/400535\" allowfullscreen></iframe>",
+      "url": "https://www.vidking.net/embed/movie/400535-sicario-day-of-the-soldado"
+    },
+    "meta": {
+      "duration": "",
+      "author": "Sicario : Le jour du soldat",
+      "date_added": "29 juin 2018",
+      "source": "TMDB"
+    }
+  },
+  {
+    "id": "1684860",
+    "type": "film",
+    "title": "sicario capos",
+    "description": "The third installment in the Sicario trilogy set to be released in 2028.",
+    "tags": [
+      "sicario-capos",
+      "",
+      "Sicario: Capos"
+    ],
+    "thumbnail": "",
+    "embed": {
+      "provider": "vidking",
+      "iframe": "<iframe src=\"https://www.vidking.net/embed/movie/1684860\" allowfullscreen></iframe>",
+      "url": "https://www.vidking.net/embed/movie/1684860-sicario-capos"
+    },
+    "meta": {
+      "duration": "",
+      "author": "Sicario: Capos",
+      "date_added": "",
+      "source": "TMDB"
+    }
+  }
+]

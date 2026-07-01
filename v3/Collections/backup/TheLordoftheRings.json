@@ -1,0 +1,94 @@
+[
+  {
+    "id": "120",
+    "type": "film",
+    "title": "The Lord of the Rings: The Fellowship of the Ring",
+    "description": "Soutenu et guidé par un mage, Frodon le Hobbit rassemble un groupe de braves aventuriers pour une incursion au pays de Mordor. C'est là qu'il pourra se débarrasser de l'Anneau Unique, convoité pour son pouvoir maléfique et absolu.",
+    "tags": [
+      "the-lord-of-the-rings-the-fellowship-of-the-ring",
+      "2001",
+      "Le Seigneur des anneaux : La communauté de l'anneau"
+    ],
+    "thumbnail": "https://media.themoviedb.org/t/p/w440_and_h660_face/5OPg6M0yHr21Ovs1fni2H1xpKuF.jpg",
+    "embed": {
+      "provider": "vidking",
+      "iframe": "<iframe src=\"https://www.vidking.net/embed/movie/120\" allowfullscreen></iframe>",
+      "url": "https://www.vidking.net/embed/movie/120-the-lord-of-the-rings-the-fellowship-of-the-ring"
+    },
+    "meta": {
+      "duration": "",
+      "author": "Le Seigneur des anneaux : La communauté de l'anneau",
+      "date_added": "19 décembre 2001",
+      "source": "TMDB"
+    }
+  },
+  {
+    "id": "120",
+    "type": "film",
+    "title": "The Lord of the Rings: The Fellowship of the Ring",
+    "description": "Soutenu et guidé par un mage, Frodon le Hobbit rassemble un groupe de braves aventuriers pour une incursion au pays de Mordor. C'est là qu'il pourra se débarrasser de l'Anneau Unique, convoité pour son pouvoir maléfique et absolu.",
+    "tags": [
+      "the-lord-of-the-rings-the-fellowship-of-the-ring",
+      "2001",
+      "Le Seigneur des anneaux : La communauté de l'anneau"
+    ],
+    "thumbnail": "https://media.themoviedb.org/t/p/w440_and_h660_face/5OPg6M0yHr21Ovs1fni2H1xpKuF.jpg",
+    "embed": {
+      "provider": "vidking",
+      "iframe": "<iframe src=\"https://www.vidking.net/embed/movie/120\" allowfullscreen></iframe>",
+      "url": "https://www.vidking.net/embed/movie/120-the-lord-of-the-rings-the-fellowship-of-the-ring"
+    },
+    "meta": {
+      "duration": "",
+      "author": "Le Seigneur des anneaux : La communauté de l'anneau",
+      "date_added": "19 décembre 2001",
+      "source": "TMDB"
+    }
+  },
+  {
+    "id": "121",
+    "type": "film",
+    "title": "The Lord of the Rings: The Two Towers",
+    "description": "Frodo et Sam poursuivent leur périlleuse quête vers Mordor dans le but de détruire l'Anneau Unique, source des maux de l'univers.",
+    "tags": [
+      "the-lord-of-the-rings-the-two-towers",
+      "2002",
+      "Le Seigneur des anneaux : Les deux tours"
+    ],
+    "thumbnail": "https://media.themoviedb.org/t/p/w440_and_h660_face/qVHBqQYLDRs7ESjP9q6o9iPHLWj.jpg",
+    "embed": {
+      "provider": "vidking",
+      "iframe": "<iframe src=\"https://www.vidking.net/embed/movie/121\" allowfullscreen></iframe>",
+      "url": "https://www.vidking.net/embed/movie/121-the-lord-of-the-rings-the-two-towers"
+    },
+    "meta": {
+      "duration": "",
+      "author": "Le Seigneur des anneaux : Les deux tours",
+      "date_added": "18 décembre 2002",
+      "source": "TMDB"
+    }
+  },
+  {
+    "id": "122",
+    "type": "film",
+    "title": "The Lord of the Rings: The Return of the King",
+    "description": "Tandis que Frodo et Sam arrivent aux limites de Mordor avec l'Anneau maléfique, les forces de Sauron envahissent la terre de Gondor. Les humains et leurs alliés s'apprêtent à leur livrer une bataille décisive pour l'avenir de la Terre du milieu.",
+    "tags": [
+      "the-lord-of-the-rings-the-return-of-the-king",
+      "2003",
+      "Le Seigneur des anneaux : Le retour du Roi"
+    ],
+    "thumbnail": "https://media.themoviedb.org/t/p/w440_and_h660_face/ypUCFOvOf07bcHy81jng9LyMUfi.jpg",
+    "embed": {
+      "provider": "vidking",
+      "iframe": "<iframe src=\"https://www.vidking.net/embed/movie/122\" allowfullscreen></iframe>",
+      "url": "https://www.vidking.net/embed/movie/122-the-lord-of-the-rings-the-return-of-the-king"
+    },
+    "meta": {
+      "duration": "",
+      "author": "Le Seigneur des anneaux : Le retour du Roi",
+      "date_added": "17 décembre 2003",
+      "source": "TMDB"
+    }
+  }
+]

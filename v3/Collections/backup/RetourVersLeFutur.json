@@ -1,0 +1,94 @@
+[
+  {
+    "id": "105",
+    "type": "film",
+    "title": "Back to the Future",
+    "description": "Le jeune Marty McFly mène une existence anonyme auprès de sa petite amie Jennifer, troublé par sa famille en crise et un directeur qui serait ravi de l'expulser du lycée. Ami de l'excentrique professeur Emmett Brown, il l'accompagne un soir tester sa nouvelle expérience : le voyage dans le temps via une DeLorean modifiée. La démonstration tourne mal : des trafiquants d'armes débarquent et assassinent le scientifique. Marty se réfugie dans la voiture et se retrouve transporté en 1955. Là, il empêche malgré lui la rencontre de ses parents, et doit tout faire pour les remettre ensemble, sous peine de ne pouvoir exister.",
+    "tags": [
+      "back-to-the-future",
+      "1985",
+      "Retour vers le futur"
+    ],
+    "thumbnail": "https://media.themoviedb.org/t/p/w440_and_h660_face/iCgFtDUZxN8iUzNBCisjUrBmg2q.jpg",
+    "embed": {
+      "provider": "vidking",
+      "iframe": "<iframe src=\"https://www.vidking.net/embed/movie/105\" allowfullscreen></iframe>",
+      "url": "https://www.vidking.net/embed/movie/105-back-to-the-future"
+    },
+    "meta": {
+      "duration": "",
+      "author": "Retour vers le futur",
+      "date_added": "3 juillet 1985",
+      "source": "TMDB"
+    }
+  },
+  {
+    "id": "105",
+    "type": "film",
+    "title": "Back to the Future",
+    "description": "Le jeune Marty McFly mène une existence anonyme auprès de sa petite amie Jennifer, troublé par sa famille en crise et un directeur qui serait ravi de l'expulser du lycée. Ami de l'excentrique professeur Emmett Brown, il l'accompagne un soir tester sa nouvelle expérience : le voyage dans le temps via une DeLorean modifiée. La démonstration tourne mal : des trafiquants d'armes débarquent et assassinent le scientifique. Marty se réfugie dans la voiture et se retrouve transporté en 1955. Là, il empêche malgré lui la rencontre de ses parents, et doit tout faire pour les remettre ensemble, sous peine de ne pouvoir exister.",
+    "tags": [
+      "back-to-the-future",
+      "1985",
+      "Retour vers le futur"
+    ],
+    "thumbnail": "https://media.themoviedb.org/t/p/w440_and_h660_face/iCgFtDUZxN8iUzNBCisjUrBmg2q.jpg",
+    "embed": {
+      "provider": "vidking",
+      "iframe": "<iframe src=\"https://www.vidking.net/embed/movie/105\" allowfullscreen></iframe>",
+      "url": "https://www.vidking.net/embed/movie/105-back-to-the-future"
+    },
+    "meta": {
+      "duration": "",
+      "author": "Retour vers le futur",
+      "date_added": "3 juillet 1985",
+      "source": "TMDB"
+    }
+  },
+  {
+    "id": "165",
+    "type": "film",
+    "title": "Back to the Future Part II",
+    "description": "Lors de son premier voyage en 1985, Marty a commis quelques erreurs. L'avenir qu'il s'était tracé n'est pas si rose, et son rejeton est tombé sous la coupe du voyou Griff Tannen, qui veut régner sur la ville. En compagnie de son ami Emmett \"Doc\" Brown et de sa fiancée Jennifer, Marty va devoir entreprendre un voyage vers le futur, pour tenter de donner un peu plus de moralité à son héritier. Un voyage aux conséquences dramatiques...",
+    "tags": [
+      "back-to-the-future-part-ii",
+      "1989",
+      "Retour vers le futur II"
+    ],
+    "thumbnail": "https://media.themoviedb.org/t/p/w440_and_h660_face/pvSf95zo0GZNp83QCtmK1GFLHtT.jpg",
+    "embed": {
+      "provider": "vidking",
+      "iframe": "<iframe src=\"https://www.vidking.net/embed/movie/165\" allowfullscreen></iframe>",
+      "url": "https://www.vidking.net/embed/movie/165-back-to-the-future-part-ii"
+    },
+    "meta": {
+      "duration": "",
+      "author": "Retour vers le futur II",
+      "date_added": "24 novembre 1989",
+      "source": "TMDB"
+    }
+  },
+  {
+    "id": "196",
+    "type": "film",
+    "title": "Back to the Future Part III",
+    "description": "Après son voyage mouvementé entre passé, présent et futur, Marty McFly apprend par une lettre vieille de cent ans que son vieil ami Emmett \"Doc\" Brown se serait crashé en 1880 au volant de sa DeLorean, restant ainsi prisonnier du far-west, sous la menace de Buford \"Molosse\" Tannen qui s'est juré de le tuer. Il n'a que cinq jours pour retrouver Doc et le ramener vivant vers le présent.",
+    "tags": [
+      "back-to-the-future-part-iii",
+      "1990",
+      "Retour vers le futur III"
+    ],
+    "thumbnail": "https://media.themoviedb.org/t/p/w440_and_h660_face/xormrixo6PYdjyh31JWT2LCBmjO.jpg",
+    "embed": {
+      "provider": "vidking",
+      "iframe": "<iframe src=\"https://www.vidking.net/embed/movie/196\" allowfullscreen></iframe>",
+      "url": "https://www.vidking.net/embed/movie/196-back-to-the-future-part-iii"
+    },
+    "meta": {
+      "duration": "",
+      "author": "Retour vers le futur III",
+      "date_added": "25 mai 1990",
+      "source": "TMDB"
+    }
+  }
+]

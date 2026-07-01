@@ -1,0 +1,94 @@
+[
+  {
+    "id": "1726",
+    "type": "film",
+    "title": "iron man",
+    "description": "Iron Man, alias Tony Stark, est un jeune milliardaire souffrant de faiblesses cardiaques suite à une blessure de guerre. Il se confectionne une armure à la fine pointe de la technologie pour combattre le crime.",
+    "tags": [
+      "iron-man",
+      "2008",
+      "Iron Man"
+    ],
+    "thumbnail": "https://media.themoviedb.org/t/p/w440_and_h660_face/kNKUCNLu1lZDGAHOBEHxR6psYHx.jpg",
+    "embed": {
+      "provider": "vidking",
+      "iframe": "<iframe src=\"https://www.vidking.net/embed/movie/1726\" allowfullscreen></iframe>",
+      "url": "https://www.vidking.net/embed/movie/1726-iron-man"
+    },
+    "meta": {
+      "duration": "",
+      "author": "Iron Man",
+      "date_added": "2 mai 2008",
+      "source": "TMDB"
+    }
+  },
+  {
+    "id": "1726",
+    "type": "film",
+    "title": "iron man",
+    "description": "Iron Man, alias Tony Stark, est un jeune milliardaire souffrant de faiblesses cardiaques suite à une blessure de guerre. Il se confectionne une armure à la fine pointe de la technologie pour combattre le crime.",
+    "tags": [
+      "iron-man",
+      "2008",
+      "Iron Man"
+    ],
+    "thumbnail": "https://media.themoviedb.org/t/p/w440_and_h660_face/kNKUCNLu1lZDGAHOBEHxR6psYHx.jpg",
+    "embed": {
+      "provider": "vidking",
+      "iframe": "<iframe src=\"https://www.vidking.net/embed/movie/1726\" allowfullscreen></iframe>",
+      "url": "https://www.vidking.net/embed/movie/1726-iron-man"
+    },
+    "meta": {
+      "duration": "",
+      "author": "Iron Man",
+      "date_added": "2 mai 2008",
+      "source": "TMDB"
+    }
+  },
+  {
+    "id": "10138",
+    "type": "film",
+    "title": "iron man 2",
+    "description": "Maintenant qu'il a révélé au monde entier qu'il était l'homme derrière l'armure d'Iron Man, Tony Stark a la tâche de veiller à la sécurité des Américains. Ce qu'il ne révèle par contre pas à ses admirateurs c'est que cette même armure qui lui permet de défendre la paix mondiale, l'empoissonne et l'entraîne à petit feu vers une mort certaine. Lors d'une course automobile à Monaco, Tony est attaqué par un Russe qui possède une technologie équivalente à celle qui le maintient en vie artificiellement. Le milliardaire devra donc tenter de vaincre ses ennemis, contenir les ardeurs de son concurrent Justin Hammer, maintenir la paix mondiale et la prospérité de sa compagnie, tout ça en tâchant de trouver une solution pour éviter sa fin imminente. Beaucoup de défis pour cet homme qui n'aime personne autant que lui-même.",
+    "tags": [
+      "iron-man-2",
+      "2010",
+      "Iron Man 2"
+    ],
+    "thumbnail": "https://media.themoviedb.org/t/p/w440_and_h660_face/g9DSeSozGi4zpUyeOYZYMNmIv9O.jpg",
+    "embed": {
+      "provider": "vidking",
+      "iframe": "<iframe src=\"https://www.vidking.net/embed/movie/10138\" allowfullscreen></iframe>",
+      "url": "https://www.vidking.net/embed/movie/10138-iron-man-2"
+    },
+    "meta": {
+      "duration": "",
+      "author": "Iron Man 2",
+      "date_added": "7 mai 2010",
+      "source": "TMDB"
+    }
+  },
+  {
+    "id": "68721",
+    "type": "film",
+    "title": "iron man 3",
+    "description": "Alors que le monde est menacé par un terroriste connu sous le nom du Mandarin, Tony Stark développe de nouvelles technologies pour son armure d'Iron Man. Lorsqu'il nargue le terroriste à la télévision, ce dernier détruit sa maison et Stark est envoyé à l'autre bout du pays, alors que tout le monde le croit mort. Avec l'aide d'un jeune garçon, il tente de réparer son armure tout en menant une enquête afin de repérer le Mandarin. Ses recherches le mènent vers Aldrich Kilian, un entrepreneur qu'il a humilié il y a plusieurs années.",
+    "tags": [
+      "iron-man-3",
+      "2013",
+      "Iron Man 3"
+    ],
+    "thumbnail": "https://media.themoviedb.org/t/p/w440_and_h660_face/sE71EBrRMfW0NKMHlXPO55Km88X.jpg",
+    "embed": {
+      "provider": "vidking",
+      "iframe": "<iframe src=\"https://www.vidking.net/embed/movie/68721\" allowfullscreen></iframe>",
+      "url": "https://www.vidking.net/embed/movie/68721-iron-man-3"
+    },
+    "meta": {
+      "duration": "",
+      "author": "Iron Man 3",
+      "date_added": "3 mai 2013",
+      "source": "TMDB"
+    }
+  }
+]

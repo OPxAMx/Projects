@@ -1,0 +1,679 @@
+[
+  {
+    "id": "1397385",
+    "type": "film",
+    "title": "Little Brother",
+    "description": "La vie parfaite d'un agent immobilier rigide est totalement chamboulée lorsque son \"petit frère\", aussi attachant qu'imprévisible, refait soudainement surface.",
+    "tags": [
+      "Comédie"
+    ],
+    "thumbnail": "https://image.tmdb.org/t/p/w500/hIJpXb7Xaje2mebN9ylsS7blQzP.jpg",
+    "embed": {
+      "provider": "",
+      "iframe": "<iframe src=\"https://www.vidking.net/embed/movie/1397385\" allowfullscreen></iframe>",
+      "url": "https://www.vidking.net/embed/movie/1397385-little-brother",
+      "iframe_fr": "<iframe src=\"\" allowfullscreen></iframe>",
+      "url_fr": ""
+    },
+    "meta": {
+      "duration": "1h41m",
+      "author": "",
+      "date_added": "2026-06-26",
+      "source": "Tmdb"
+    },
+    "original_title": "Little Brother",
+    "description_fr": "La vie parfaite d'un agent immobilier rigide est totalement chamboulée lorsque son \"petit frère\", aussi attachant qu'imprévisible, refait soudainement surface.",
+    "backdrop": "https://image.tmdb.org/t/p/w500/bdwv8Hsu4Bnz8aRbH5MQ9clQ0DG.jpg",
+    "release_date": "2026-06-25",
+    "runtime": 101,
+    "vote_average": 6.087,
+    "popularity": 76.3596,
+    "status": "Released",
+    "homepage": "https://www.netflix.com/fr/title/81521988",
+    "language": "en",
+    "genres": [
+      "Comédie"
+    ],
+    "production_companies": [
+      "Middle Child Pictures"
+    ],
+    "source": "TMDb API",
+    "tmdb_id": "1397385",
+    "cast": [
+      "John Cena",
+      "Eric André",
+      "Michelle Monaghan",
+      "Christopher Meloni",
+      "Sherry Cola",
+      "Ego Nwodim",
+      "Caleb Hearon",
+      "Bryce Gheisar",
+      "Pilot Bunch",
+      "Ben Ahlers"
+    ],
+    "director": "Matt Spicer",
+    "producers": [
+      "David Bernad",
+      "Ruben Fleischer",
+      "Will Greenfield"
+    ]
+  },
+  {
+    "id": "1228710",
+    "type": "film",
+    "title": "Le Mandalorian et Grogu",
+    "description": "L'Empire maléfique est tombé et les seigneurs de guerre impériaux restent dispersés dans toute la galaxie. Alors que la nouvelle République naissante travaille pour protéger tout ce que la rébellion s'est battue, ils ont fait appel à Din Djarin et à son jeune apprenti Grogu.",
+    "tags": [
+      "Action",
+      "Aventure",
+      "Science-Fiction"
+    ],
+    "thumbnail": "https://image.tmdb.org/t/p/w500/qkH4ntQtO5qnL17RFOvmkNHKpGt.jpg",
+    "embed": {
+      "provider": "Lucasfilm Ltd.",
+      "iframe": "<iframe src=\"https://www.vidking.net/embed/movie/1228710\" allowfullscreen></iframe>",
+      "url": "https://www.vidking.net/embed/movie/1228710-the-mandalorian-and-grogu",
+      "iframe_fr": "<iframe src=\"\" allowfullscreen></iframe>",
+      "url_fr": ""
+    },
+    "meta": {
+      "duration": "",
+      "author": "",
+      "date_added": "",
+      "source": "Tmdb"
+    },
+    "original_title": "The Mandalorian and Grogu",
+    "description_fr": "L'Empire maléfique est tombé et les seigneurs de guerre impériaux restent dispersés dans toute la galaxie. Alors que la nouvelle République naissante travaille pour protéger tout ce que la rébellion s'est battue, ils ont fait appel à Din Djarin et à son jeune apprenti Grogu.",
+    "backdrop": "https://image.tmdb.org/t/p/w500/4lj7MZtcIDI2FmZXGkFWh0sNCsq.jpg",
+    "release_date": "2026-05-20",
+    "runtime": 132,
+    "vote_average": 6.7,
+    "popularity": 187.8376,
+    "status": "Released",
+    "homepage": "",
+    "language": "en",
+    "genres": [
+      "Action",
+      "Aventure",
+      "Science-Fiction"
+    ],
+    "production_companies": [
+      "Lucasfilm Ltd.",
+      "Fairview Entertainment"
+    ],
+    "source": "TMDb API",
+    "tmdb_id": "1228710",
+    "cast": [
+      "Pedro Pascal",
+      "Jeremy Allen White",
+      "Sigourney Weaver",
+      "Brendan Wayne",
+      "Lateef Crowder",
+      "Steve Blum",
+      "Jonny Coyne",
+      "Matthew Willig",
+      "Martin Scorsese",
+      "Hemky Madera"
+    ],
+    "director": "Jon Favreau",
+    "producers": [
+      "Jon Favreau",
+      "Kathleen Kennedy",
+      "Dave Filoni",
+      "Ian Bryce",
+      "Karen Gilchrist",
+      "John Bartnicki",
+      "Carrie Beck"
+    ]
+  },
+  {
+    "id": "1081003",
+    "type": "film",
+    "title": "Supergirl",
+    "description": "Lorsqu’un ennemi inattendu et impitoyable surgit, Kara Zor-El est forcée, malgré elle, de faire équipe avec un compagnon improbable. Ensemble, ils se lancent dans une épopée cosmique où la vengeance et la justice sont en jeu, et où Kara doit affronter ses origines pour trouver sa propre voie en tant qu’héroïne.",
+    "tags": [
+      "Action",
+      "Aventure",
+      "Science-Fiction"
+    ],
+    "thumbnail": "https://image.tmdb.org/t/p/w500/ptyTrUvaQYkRTj42t6IMeGc0rZy.jpg",
+    "embed": {
+      "provider": "warnerbros",
+      "iframe": "<iframe src=\"https://www.vidking.net/embed/movie/1081003\" allowfullscreen></iframe>",
+      "url": "https://www.vidking.net/embed/movie/1081003-supergirl",
+      "iframe_fr": "<iframe src=\"\" allowfullscreen></iframe>",
+      "url_fr": ""
+    },
+    "meta": {
+      "duration": "",
+      "author": "",
+      "date_added": "",
+      "source": "Tmdb"
+    },
+    "original_title": "Supergirl",
+    "description_fr": "Lorsqu’un ennemi inattendu et impitoyable surgit, Kara Zor-El est forcée, malgré elle, de faire équipe avec un compagnon improbable. Ensemble, ils se lancent dans une épopée cosmique où la vengeance et la justice sont en jeu, et où Kara doit affronter ses origines pour trouver sa propre voie en tant qu’héroïne.",
+    "backdrop": "https://image.tmdb.org/t/p/w500/vk5IwZNS35wh6rNmqB1ns6XuiyI.jpg",
+    "release_date": "2026-06-23",
+    "runtime": 108,
+    "vote_average": 6.36,
+    "popularity": 219.224,
+    "status": "Released",
+    "homepage": "https://newsroom.warnerbros.fr/supergirl-woman-of-tomorrow",
+    "language": "en",
+    "genres": [
+      "Action",
+      "Aventure",
+      "Science-Fiction"
+    ],
+    "production_companies": [
+      "DC Studios",
+      "Troll Court Entertainment",
+      "The Safran Company",
+      "Domain Entertainment"
+    ],
+    "source": "TMDb API",
+    "tmdb_id": "1081003",
+    "cast": [
+      "Milly Alcock",
+      "Eve Ridley",
+      "Matthias Schoenaerts",
+      "Jason Momoa",
+      "David Krumholtz",
+      "Emily Beecham",
+      "David Corenswet",
+      "Kadiff Kirwan",
+      "Thalissa Teixeira",
+      "Ferdinand Kingsley"
+    ],
+    "director": "Craig Gillespie",
+    "producers": [
+      "James Gunn",
+      "Peter Safran",
+      "Chantal Nong Vo",
+      "Lars P. Winther",
+      "Nigel Gostelow",
+      "Pete Chiappetta",
+      "Andrew Lary",
+      "Anthony Tittanegro"
+    ]
+  },
+  {
+    "id": "1275779",
+    "type": "film",
+    "title": "Disclosure Day",
+    "description": "Si vous découvriez que nous ne sommes pas seuls, si quelqu'un vous le montrait, vous le prouvait, cela vous effraierait-il ?",
+    "tags": [
+      "Science-Fiction",
+      "Thriller"
+    ],
+    "thumbnail": "https://image.tmdb.org/t/p/w500/8GRMeKaDFnuzXBzqGiDMzCFDnwQ.jpg",
+    "embed": {
+      "provider": "universalpictures",
+      "iframe": "<iframe src=\"https://www.vidking.net/embed/movie/1275779\" allowfullscreen></iframe>",
+      "url": "https://www.vidking.net/embed/movie/1275779-disclosure-day",
+      "iframe_fr": "<iframe src=\"\" allowfullscreen></iframe>",
+      "url_fr": ""
+    },
+    "meta": {
+      "duration": "",
+      "author": "",
+      "date_added": "",
+      "source": "Tmdb"
+    },
+    "original_title": "Disclosure Day",
+    "description_fr": "Si vous découvriez que nous ne sommes pas seuls, si quelqu'un vous le montrait, vous le prouvait, cela vous effraierait-il ?",
+    "backdrop": "https://image.tmdb.org/t/p/w500/s6ly8laenkHWlIBRkLSfIuEMLC6.jpg",
+    "release_date": "2026-06-10",
+    "runtime": 145,
+    "vote_average": 6.698,
+    "popularity": 179.6537,
+    "status": "Released",
+    "homepage": "https://www.universalpictures.fr/micro/disclosure-day",
+    "language": "en",
+    "genres": [
+      "Science-Fiction",
+      "Thriller"
+    ],
+    "production_companies": [
+      "Universal Pictures",
+      "Amblin Entertainment"
+    ],
+    "source": "TMDb API",
+    "tmdb_id": "1275779",
+    "cast": [
+      "Emily Blunt",
+      "Josh O'Connor",
+      "Colin Firth",
+      "Colman Domingo",
+      "Eve Hewson",
+      "Wyatt Russell",
+      "Elizabeth Marvel",
+      "Henry Lloyd-Hughes",
+      "Courtney Grace",
+      "Jeremy Shamos"
+    ],
+    "director": "Steven Spielberg",
+    "producers": [
+      "Kristie Macosko Krieger",
+      "Steven Spielberg",
+      "Chris Brigham",
+      "Adam Somner",
+      "Graceann Dorse",
+      "Eric Kimelton"
+    ]
+  },
+  {
+    "id": "454639",
+    "type": "film",
+    "title": "Les Maîtres de l'Univers",
+    "description": "Après en avoir été séparée pendant 15 ans, l’Épée de pouvoir guide le prince Adam de retour sur Eternia, où il découvre son monde brisé sous le règne maléfique de Skeletor. Pour sauver sa famille et son royaume, Adam doit unir ses forces à celles de ses plus proches alliés, Teela (Camila Mendes) et Duncan, alias le Maître d’Armes (Idris Elba), et accepter sa véritable destinée en devenant Musclor — l’homme le plus puissant de l’univers.",
+    "tags": [
+      "Action",
+      "Fantastique",
+      "Science-Fiction"
+    ],
+    "thumbnail": "https://image.tmdb.org/t/p/w500/lYoc8kbgu8BKQQjN2fPsmRBJ8qB.jpg",
+    "embed": {
+      "provider": "Amazon MGM Studios",
+      "iframe": "<iframe src=\"https://www.vidking.net/embed/movie/454639\" allowfullscreen></iframe>",
+      "url": "https://www.vidking.net/embed/movie/454639-masters-of-the-universe",
+      "iframe_fr": "<iframe src=\"\" allowfullscreen></iframe>",
+      "url_fr": ""
+    },
+    "meta": {
+      "duration": "",
+      "author": "",
+      "date_added": "",
+      "source": "Tmdb"
+    },
+    "original_title": "Masters of the Universe",
+    "description_fr": "Après en avoir été séparée pendant 15 ans, l’Épée de pouvoir guide le prince Adam de retour sur Eternia, où il découvre son monde brisé sous le règne maléfique de Skeletor. Pour sauver sa famille et son royaume, Adam doit unir ses forces à celles de ses plus proches alliés, Teela (Camila Mendes) et Duncan, alias le Maître d’Armes (Idris Elba), et accepter sa véritable destinée en devenant Musclor — l’homme le plus puissant de l’univers.",
+    "backdrop": "https://image.tmdb.org/t/p/w500/piV2OnzTZCyGBP9JCjlHIgKGlfo.jpg",
+    "release_date": "2026-06-03",
+    "runtime": 141,
+    "vote_average": 7.204,
+    "popularity": 111.4584,
+    "status": "Released",
+    "homepage": "",
+    "language": "en",
+    "genres": [
+      "Action",
+      "Fantastique",
+      "Science-Fiction"
+    ],
+    "production_companies": [
+      "Escape Artists",
+      "Mattel Studios",
+      "Amazon MGM Studios"
+    ],
+    "source": "TMDb API",
+    "tmdb_id": "454639",
+    "cast": [
+      "Nicholas Galitzine",
+      "Camila Mendes",
+      "Idris Elba",
+      "Jared Leto",
+      "Alison Brie",
+      "Jóhannes Haukur Jóhannesson",
+      "Jon Xue Zhang",
+      "Sam C. Wilson",
+      "Charlotte Riley",
+      "James Purefoy"
+    ],
+    "director": "Travis Knight",
+    "producers": [
+      "Robbie Brenner",
+      "Todd Black",
+      "Jason Blumenthal",
+      "DeVon Franklin",
+      "Ynon Kreiz",
+      "Bill Bannerman",
+      "David Bloomfield"
+    ]
+  },
+  {
+    "id": "1315772",
+    "type": "film",
+    "title": "Des Minions et des monstres",
+    "description": "L’histoire turbulente, absurde et évidemment vraie des Minions et la manière dont ils ont conquis Hollywood, sont devenus de véritables stars de cinéma, ont tout perdu, ont libéré des monstres dans notre monde, puis ont tenté de sauver la planète du chaos qu’ils avaient créé.",
+    "tags": [
+      "Aventure",
+      "Animation",
+      "Comédie",
+      "Familial",
+      "Fantastique"
+    ],
+    "thumbnail": "https://image.tmdb.org/t/p/w500/igD0dUmeaJfWME9j3OoqeN2dHvp.jpg",
+    "embed": {
+      "provider": "Illumination",
+      "iframe": "<iframe src=\"https://www.vidking.net/embed/movie/1315772\" allowfullscreen></iframe>",
+      "url": "https://www.vidking.net/embed/movie/1315772-minions-monsters",
+      "iframe_fr": "<iframe src=\"\" allowfullscreen></iframe>",
+      "url_fr": ""
+    },
+    "meta": {
+      "duration": "",
+      "author": "",
+      "date_added": "",
+      "source": "Tmdb"
+    },
+    "original_title": "Minions & Monsters",
+    "description_fr": "L’histoire turbulente, absurde et évidemment vraie des Minions et la manière dont ils ont conquis Hollywood, sont devenus de véritables stars de cinéma, ont tout perdu, ont libéré des monstres dans notre monde, puis ont tenté de sauver la planète du chaos qu’ils avaient créé.",
+    "backdrop": "https://image.tmdb.org/t/p/w500/pclNFoWcWDeoaQ2pwrXPPw1mjs7.jpg",
+    "release_date": "2026-06-24",
+    "runtime": 90,
+    "vote_average": 6.9,
+    "popularity": 65.683,
+    "status": "Released",
+    "homepage": "",
+    "language": "en",
+    "genres": [
+      "Aventure",
+      "Animation",
+      "Comédie",
+      "Familial",
+      "Fantastique"
+    ],
+    "production_companies": [
+      "Universal Pictures",
+      "Illumination",
+      "dentsu",
+      "Fuji Television Network"
+    ],
+    "source": "TMDb API",
+    "tmdb_id": "1315772",
+    "cast": [
+      "Pierre Coffin",
+      "Trey Parker",
+      "Allison Janney",
+      "Christoph Waltz",
+      "Jeff Bridges",
+      "Jesse Eisenberg",
+      "Zoey Deutch",
+      "Bobby Moynihan",
+      "Phil LaMarr",
+      "George Lucas"
+    ],
+    "director": "Pierre Coffin",
+    "producers": [
+      "Chris Meledandri",
+      "Bill Ryan",
+      "Brian Lynch"
+    ]
+  },
+  {
+    "id": "1273221",
+    "type": "film",
+    "title": "Scary Movie",
+    "description": "Vingt-six ans après avoir échappé à un tueur masqué étrangement familier, les héros emblématiques de la saga sont de nouveau dans la ligne de mire du meurtrier, et aucune franchise de film d’horreur n’est à l’abri.",
+    "tags": [
+      "Comédie",
+      "Horreur"
+    ],
+    "thumbnail": "https://image.tmdb.org/t/p/w500/gIComZ1TfZdWmuD4L4mJ8sEv0km.jpg",
+    "embed": {
+      "provider": "Miramax",
+      "iframe": "<iframe src=\"https://www.vidking.net/embed/movie/1273221\" allowfullscreen></iframe>",
+      "url": "https://www.vidking.net/embed/movie/1273221-scary-movie",
+      "iframe_fr": "<iframe src=\"\" allowfullscreen></iframe>",
+      "url_fr": ""
+    },
+    "meta": {
+      "duration": "",
+      "author": "",
+      "date_added": "",
+      "source": "Tmdb"
+    },
+    "original_title": "Scary Movie",
+    "description_fr": "Vingt-six ans après avoir échappé à un tueur masqué étrangement familier, les héros emblématiques de la saga sont de nouveau dans la ligne de mire du meurtrier, et aucune franchise de film d’horreur n’est à l’abri.",
+    "backdrop": "https://image.tmdb.org/t/p/w500/xWBiXclrRmTggQHMRsIn84YHavs.jpg",
+    "release_date": "2026-06-03",
+    "runtime": 96,
+    "vote_average": 5.527,
+    "popularity": 93.7696,
+    "status": "Released",
+    "homepage": "",
+    "language": "en",
+    "genres": [
+      "Comédie",
+      "Horreur"
+    ],
+    "production_companies": [
+      "Miramax",
+      "Wayans Bros. Entertainment"
+    ],
+    "source": "TMDb API",
+    "tmdb_id": "1273221",
+    "cast": [
+      "Marlon Wayans",
+      "Shawn Wayans",
+      "Anna Faris",
+      "Regina Hall",
+      "Damon Wayans Jr.",
+      "Gregg Wayans",
+      "Kim Wayans",
+      "Benny Zielke",
+      "Cameron Scott Roberts",
+      "Cheri Oteri"
+    ],
+    "director": "Michael Tiddes",
+    "producers": [
+      "Keenen Ivory Wayans",
+      "Marlon Wayans",
+      "Rick Alvarez",
+      "Shawn Wayans",
+      "Jonathan Glickman",
+      "Alexandra Loewy",
+      "Thom Zadra",
+      "Craig Wayans",
+      "Marsha L. Swinton",
+      "Neal H. Moritz"
+    ]
+  },
+  {
+    "id": "1284465",
+    "type": "film",
+    "title": "On l'appelait Robin des Bois",
+    "description": "Hanté par son passé après une vie de crimes et de violence, Robin des Bois est laissé pour mort à l’issue d’un combat qu’il pensait être le dernier. Recueilli par une femme mystérieuse, il se voit offrir une ultime chance de rédemption…",
+    "tags": [
+      "Drame",
+      "Thriller",
+      "Action"
+    ],
+    "thumbnail": "https://image.tmdb.org/t/p/w500/bYaznBVPlQ4C0uTu6wXn68NZFoB.jpg",
+    "embed": {
+      "provider": "Lyrical Media",
+      "iframe": "<iframe src=\"https://www.vidking.net/embed/movie/1284465\" allowfullscreen></iframe>",
+      "url": "https://www.vidking.net/embed/movie/1284465-the-death-of-robin-hood",
+      "iframe_fr": "<iframe src=\"\" allowfullscreen></iframe>",
+      "url_fr": ""
+    },
+    "meta": {
+      "duration": "",
+      "author": "",
+      "date_added": "",
+      "source": "Tmdb"
+    },
+    "original_title": "The Death of Robin Hood",
+    "description_fr": "Hanté par son passé après une vie de crimes et de violence, Robin des Bois est laissé pour mort à l’issue d’un combat qu’il pensait être le dernier. Recueilli par une femme mystérieuse, il se voit offrir une ultime chance de rédemption…",
+    "backdrop": "https://image.tmdb.org/t/p/w500/yw8FhuMvhJSy4zotEuCyk5bZ230.jpg",
+    "release_date": "2026-06-18",
+    "runtime": 123,
+    "vote_average": 6.567,
+    "popularity": 26.311,
+    "status": "Released",
+    "homepage": "",
+    "language": "en",
+    "genres": [
+      "Drame",
+      "Thriller",
+      "Action"
+    ],
+    "production_companies": [
+      "Lyrical Media",
+      "Ryder Picture Company"
+    ],
+    "source": "TMDb API",
+    "tmdb_id": "1284465",
+    "cast": [
+      "Hugh Jackman",
+      "Jodie Comer",
+      "Bill Skarsgård",
+      "Murray Bartlett",
+      "Noah Jupe",
+      "Jade Croot",
+      "Faith Delaney",
+      "Tabitha Smyth",
+      "Beau Thompson",
+      "Alfie Lawless"
+    ],
+    "director": "Michael Sarnoski",
+    "producers": [
+      "Rama Gottumukkala",
+      "Jon Rosenberg",
+      "Alexander Black",
+      "Michael Sarnoski",
+      "Andrew Swett",
+      "Aaron Ryder",
+      "Charles Miller",
+      "Hugh Jackman",
+      "Arlen Konopaki",
+      "Mark Huffam",
+      "Janine Modder"
+    ]
+  },
+  {
+    "id": "1316427",
+    "type": "film",
+    "title": "7 كلاب",
+    "description": "",
+    "tags": [
+      "Action",
+      "Comédie"
+    ],
+    "thumbnail": "https://image.tmdb.org/t/p/w500/sqtFKaktHBb52pR3jygsjDAPJ1o.jpg",
+    "embed": {
+      "provider": "General Entertainment Authority",
+      "iframe": "<iframe src=\"https://www.vidking.net/embed/movie/1316427\" allowfullscreen></iframe>",
+      "url": "https://www.vidking.net/embed/movie/1316427-7",
+      "iframe_fr": "<iframe src=\"\" allowfullscreen></iframe>",
+      "url_fr": ""
+    },
+    "meta": {
+      "duration": "",
+      "author": "",
+      "date_added": "",
+      "source": "Tmdb"
+    },
+    "original_title": "7 كلاب",
+    "description_fr": "",
+    "backdrop": "https://image.tmdb.org/t/p/w500/7cHPvy3aF1mDMX1zqmZRt8YE7Vr.jpg",
+    "release_date": "2026-05-27",
+    "runtime": 123,
+    "vote_average": 5.5,
+    "popularity": 22.1201,
+    "status": "Released",
+    "homepage": "",
+    "language": "ar",
+    "genres": [
+      "Action",
+      "Comédie"
+    ],
+    "production_companies": [
+      "General Entertainment Authority",
+      "Riyadh Season"
+    ],
+    "source": "TMDb API",
+    "tmdb_id": "1316427",
+    "cast": [
+      "Ahmed Ezz",
+      "Karim Abdel Aziz",
+      "Monica Bellucci",
+      "تارا عماد",
+      "Martin Lawrence",
+      "ناصر القصبي",
+      "Max Huang",
+      "Sanjay Dutt",
+      "Menna Shalabi",
+      "Francis Ngannou"
+    ],
+    "director": "Adil El Arbi",
+    "producers": [
+      "Ivan Atkinson",
+      "تركي الشيخ",
+      "Adnan Kayal",
+      "Abdulelah Alqurashi"
+    ]
+  },
+  {
+    "id": "1612018",
+    "type": "film",
+    "title": "Jackass: Best and Last",
+    "description": "",
+    "tags": [
+      "Action",
+      "Comédie",
+      "Documentaire"
+    ],
+    "thumbnail": "https://image.tmdb.org/t/p/w500/tfgccePxnswMqhmtxafliLlcCVR.jpg",
+    "embed": {
+      "provider": "Paramount Pictures",
+      "iframe": "<iframe src=\"https://www.vidking.net/embed/movie/1612018\" allowfullscreen></iframe>",
+      "url": "https://www.vidking.net/embed/movie/1612018-jackass-best-and-last",
+      "iframe_fr": "<iframe src=\"\" allowfullscreen></iframe>",
+      "url_fr": ""
+    },
+    "meta": {
+      "duration": "",
+      "author": "",
+      "date_added": "",
+      "source": "Tmdb"
+    },
+    "original_title": "Jackass: Best and Last",
+    "description_fr": "",
+    "backdrop": "https://image.tmdb.org/t/p/w500/om1hoP6W0j54esiYMi9meYZ90Vq.jpg",
+    "release_date": "2026-06-25",
+    "runtime": 92,
+    "vote_average": 5.0,
+    "popularity": 13.9556,
+    "status": "Released",
+    "homepage": "",
+    "language": "en",
+    "genres": [
+      "Action",
+      "Comédie",
+      "Documentaire"
+    ],
+    "production_companies": [
+      "Paramount Pictures",
+      "MTV Entertainment Studios",
+      "Domain Entertainment",
+      "Dickhouse Productions"
+    ],
+    "source": "TMDb API",
+    "tmdb_id": "1612018",
+    "cast": [
+      "Johnny Knoxville",
+      "Steve-O",
+      "Chris Pontius",
+      "Jason 'Wee Man' Acuña",
+      "Dave England",
+      "Preston Lacy",
+      "Ehren McGhehey",
+      "Bam Margera",
+      "Sean McInerney",
+      "Davon 'Jasper' Wilson"
+    ],
+    "director": "Jeff Tremaine",
+    "producers": [
+      "Johnny Knoxville",
+      "Spike Jonze",
+      "Pete Chiappetta",
+      "Anthony Tittanegro",
+      "Andrew Lary",
+      "Shanna Zablow Newton",
+      "Greg Iguchi",
+      "Jeff Tremaine"
+    ]
+  }
+]

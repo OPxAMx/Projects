@@ -1,0 +1,236 @@
+[
+  {
+    "id": "950289",
+    "type": "collection",
+    "title": "X Collection",
+    "description": "La série de films X est composée de films américains de type slasher-horreur basés sur une histoire originale écrite par Ti West. La série comprend un film original, sa préquelle et sa suite. L’intrigue principale du film tourne autour de deux personnages, Maxine Minx et Pearl, toutes deux interprétées par Mia Goth.",
+    "tags": [
+      "Horreur"
+    ],
+    "thumbnail": "https://www.themoviedb.org/t/p/w600_and_h900_face/sx2wSIspraPrQHHLg3A9oD09tXe.jpg",
+    "embed": {
+      "provider": "",
+      "iframe": "<iframe src=\"https://www.vidking.net/embed/movie/950289\" allowfullscreen></iframe>",
+      "url": "https://www.vidking.net/embed/movie/950289-x-collection",
+      "iframe_fr": "<iframe src=\"\" allowfullscreen></iframe>",
+      "url_fr": ""
+    },
+    "meta": {
+      "duration": "",
+      "author": "",
+      "date_added": "",
+      "source": "Tmdb"
+    }
+  },
+  {
+    "id": "760104",
+    "type": "film",
+    "title": "X",
+    "description": "Fin des années 70, une équipe de tournage investit une maison isolée du fin fond du Texas pour y réaliser un film X. À la tombée de la nuit, les propriétaires des lieux surprennent les cinéastes amateurs en plein acte. Le tournage vire brutalement au cauchemar.",
+    "tags": [
+      "Horreur"
+    ],
+    "thumbnail": "https://image.tmdb.org/t/p/w500/ep2C0shFTkxPUGLBvsgODWycwU7.jpg",
+    "embed": {
+      "provider": "",
+      "iframe": "<iframe src=\"https://www.vidking.net/embed/movie/760104\" allowfullscreen></iframe>",
+      "url": "https://www.vidking.net/embed/movie/760104-x",
+      "iframe_fr": "<iframe src=\"\" allowfullscreen></iframe>",
+      "url_fr": ""
+    },
+    "meta": {
+      "duration": "",
+      "author": "",
+      "date_added": "",
+      "source": "Tmdb"
+    },
+    "original_title": "X",
+    "description_fr": "Fin des années 70, une équipe de tournage investit une maison isolée du fin fond du Texas pour y réaliser un film X. À la tombée de la nuit, les propriétaires des lieux surprennent les cinéastes amateurs en plein acte. Le tournage vire brutalement au cauchemar.",
+    "backdrop": "https://image.tmdb.org/t/p/w500/70Rm9ItxKuEKN8iu6rNjfwAYUCJ.jpg",
+    "release_date": "2022-03-17",
+    "runtime": 105,
+    "vote_average": 6.716,
+    "popularity": 10.657,
+    "status": "Released",
+    "homepage": "https://kinovista.com/film/x/",
+    "language": "en",
+    "genres": [
+      "Horreur"
+    ],
+    "production_companies": [
+      "A24",
+      "Little Lamb Productions"
+    ],
+    "source": "TMDb API",
+    "tmdb_id": "760104",
+    "cast": [
+      "Mia Goth",
+      "Jenna Ortega",
+      "Brittany Snow",
+      "Kid Cudi",
+      "Martin Henderson",
+      "Owen Campbell",
+      "Stephen Ure",
+      "James Gaylyn",
+      "Simon Prast",
+      "Geoff Dolan"
+    ],
+    "director": "Ti West",
+    "producers": [
+      "Ashley Levinson",
+      "Kid Cudi",
+      "Dennis Cummings",
+      "Harrison Kreiss",
+      "Karina Manashil",
+      "Peter Phok",
+      "Ti West",
+      "Jacob Jaffke",
+      "Kevin Turen",
+      "Sam Levinson"
+    ]
+  },
+  {
+    "id": "949423",
+    "type": "film",
+    "title": "Pearl",
+    "description": "Piégée dans la ferme isolée de sa famille, Pearl doit s'occuper de son père malade sous le regard autoritaire de sa mère dévote. Désireuse de mener une vie glamour comme elle l'a vu dans les films, Pearl voit ses ambitions limitées... ce qu'elle n'apprécie pas du tout !",
+    "tags": [
+      "Horreur",
+      "Drame",
+      "Thriller"
+    ],
+    "thumbnail": "https://image.tmdb.org/t/p/w500/pe6W1l0MSFUjZYCH3psEkJBXVav.jpg",
+    "embed": {
+      "provider": "",
+      "iframe": "<iframe src=\"https://www.vidking.net/embed/movie/949423\" allowfullscreen></iframe>",
+      "url": "https://www.vidking.net/embed/movie/949423-pearl",
+      "iframe_fr": "<iframe src=\"\" allowfullscreen></iframe>",
+      "url_fr": ""
+    },
+    "meta": {
+      "duration": "",
+      "author": "",
+      "date_added": "",
+      "source": "Tmdb"
+    },
+    "original_title": "Pearl",
+    "description_fr": "Piégée dans la ferme isolée de sa famille, Pearl doit s'occuper de son père malade sous le regard autoritaire de sa mère dévote. Désireuse de mener une vie glamour comme elle l'a vu dans les films, Pearl voit ses ambitions limitées... ce qu'elle n'apprécie pas du tout !",
+    "backdrop": "https://image.tmdb.org/t/p/w500/8rmx3Wh6fQdSL2nzTmdFn9thcK8.jpg",
+    "release_date": "2022-09-16",
+    "runtime": 103,
+    "vote_average": 7.2,
+    "popularity": 7.6368,
+    "status": "Released",
+    "homepage": "",
+    "language": "en",
+    "genres": [
+      "Horreur",
+      "Drame",
+      "Thriller"
+    ],
+    "production_companies": [
+      "A24",
+      "Little Lamb Productions"
+    ],
+    "source": "TMDb API",
+    "tmdb_id": "949423",
+    "cast": [
+      "Mia Goth",
+      "David Corenswet",
+      "Tandi Wright",
+      "Matthew Sunderland",
+      "Emma Jenkins-Purro",
+      "Alistair Sewell",
+      "Amelia Reid",
+      "Gabe McDonnell",
+      "Lauren Stewart",
+      "Todd Rippon"
+    ],
+    "director": "Ti West",
+    "producers": [
+      "Harrison Kreiss",
+      "Peter Phok",
+      "Mia Goth",
+      "Ashley Levinson",
+      "Kevin Turen",
+      "Jacob Jaffke",
+      "Kid Cudi",
+      "Sam Levinson",
+      "Dennis Cummings",
+      "Karina Manashil",
+      "Ti West"
+    ]
+  },
+  {
+    "id": "1023922",
+    "type": "film",
+    "title": "MaXXXine",
+    "description": "À Los Angeles dans les années 80, Maxine Minx , une star de films pour adultes et aspirante actrice, obtient finalement le rôle tant espéré. Mais lorsqu’un mystérieux tueur traque les starlettes d’Hollywood, des indices sanglants menacent de dévoiler le sombre passé de Maxine.",
+    "tags": [
+      "Horreur",
+      "Thriller"
+    ],
+    "thumbnail": "https://image.tmdb.org/t/p/w500/uagihpF2YcMBqCEZVcWtACqJS4w.jpg",
+    "embed": {
+      "provider": "",
+      "iframe": "<iframe src=\"https://www.vidking.net/embed/movie/1023922\" allowfullscreen></iframe>",
+      "url": "https://www.vidking.net/embed/movie/1023922-maxxxine",
+      "iframe_fr": "<iframe src=\"\" allowfullscreen></iframe>",
+      "url_fr": ""
+    },
+    "meta": {
+      "duration": "",
+      "author": "",
+      "date_added": "",
+      "source": "Tmdb"
+    },
+    "original_title": "MaXXXine",
+    "description_fr": "À Los Angeles dans les années 80, Maxine Minx , une star de films pour adultes et aspirante actrice, obtient finalement le rôle tant espéré. Mais lorsqu’un mystérieux tueur traque les starlettes d’Hollywood, des indices sanglants menacent de dévoiler le sombre passé de Maxine.",
+    "backdrop": "https://image.tmdb.org/t/p/w500/viKEEaaCaZ0hZ2nGuvIEozlLooL.jpg",
+    "release_date": "2024-07-04",
+    "runtime": 101,
+    "vote_average": 6.294,
+    "popularity": 5.7213,
+    "status": "Released",
+    "homepage": "",
+    "language": "en",
+    "genres": [
+      "Horreur",
+      "Thriller"
+    ],
+    "production_companies": [
+      "A24",
+      "Motel Mojave",
+      "Access Entertainment"
+    ],
+    "source": "TMDb API",
+    "tmdb_id": "1023922",
+    "cast": [
+      "Mia Goth",
+      "Elizabeth Debicki",
+      "Moses Sumney",
+      "Michelle Monaghan",
+      "Bobby Cannavale",
+      "Halsey",
+      "Lily Collins",
+      "Giancarlo Esposito",
+      "Kevin Bacon",
+      "Charley Rowan McCain"
+    ],
+    "director": "Ti West",
+    "producers": [
+      "Kevin Turen",
+      "Ti West",
+      "Jacob Jaffke",
+      "Harrison Kreiss",
+      "Mia Goth",
+      "Len Blavatnik",
+      "Danny Cohen",
+      "Sam Levinson",
+      "Ashley Levinson",
+      "Peter Phok",
+      "Jeremy Reitz",
+      "Kid Cudi"
+    ]
+  }
+]

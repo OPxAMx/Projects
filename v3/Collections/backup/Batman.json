@@ -1,0 +1,94 @@
+[
+  {
+    "id": "272",
+    "type": "film",
+    "title": "Batman Begins",
+    "description": "Comment un homme seul peut-il changer le monde ? Telle est la question qui hante Bruce Wayne depuis cette nuit tragique où ses parents furent abattus sous ses yeux, dans une ruelle de Gotham City. Torturé par un profond sentiment de colère et de culpabilité, le jeune héritier de cette richissime famille fuit Gotham pour un long et discret voyage à travers le monde. Le but de ses pérégrinations : sublimer sa soif de vengeance en trouvant de nouveaux moyens de lutter contre l'injustice.",
+    "tags": [
+      "batman-begins",
+      "2005",
+      "Batman : Le commencement"
+    ],
+    "thumbnail": "https://media.themoviedb.org/t/p/w440_and_h660_face/cEyndoywxTzd0ipOIWstV5tip35.jpg",
+    "embed": {
+      "provider": "vidking",
+      "iframe": "<iframe src=\"https://www.vidking.net/embed/movie/272\" allowfullscreen></iframe>",
+      "url": "https://www.vidking.net/embed/movie/272-batman-begins"
+    },
+    "meta": {
+      "duration": "",
+      "author": "Batman : Le commencement",
+      "date_added": "15 juin 2005",
+      "source": "TMDB"
+    }
+  },
+  {
+    "id": "272",
+    "type": "film",
+    "title": "Batman Begins",
+    "description": "Comment un homme seul peut-il changer le monde ? Telle est la question qui hante Bruce Wayne depuis cette nuit tragique où ses parents furent abattus sous ses yeux, dans une ruelle de Gotham City. Torturé par un profond sentiment de colère et de culpabilité, le jeune héritier de cette richissime famille fuit Gotham pour un long et discret voyage à travers le monde. Le but de ses pérégrinations : sublimer sa soif de vengeance en trouvant de nouveaux moyens de lutter contre l'injustice.",
+    "tags": [
+      "batman-begins",
+      "2005",
+      "Batman : Le commencement"
+    ],
+    "thumbnail": "https://media.themoviedb.org/t/p/w440_and_h660_face/cEyndoywxTzd0ipOIWstV5tip35.jpg",
+    "embed": {
+      "provider": "vidking",
+      "iframe": "<iframe src=\"https://www.vidking.net/embed/movie/272\" allowfullscreen></iframe>",
+      "url": "https://www.vidking.net/embed/movie/272-batman-begins"
+    },
+    "meta": {
+      "duration": "",
+      "author": "Batman : Le commencement",
+      "date_added": "15 juin 2005",
+      "source": "TMDB"
+    }
+  },
+  {
+    "id": "155",
+    "type": "film",
+    "title": "The Dark Knight",
+    "description": "Batman se joint à James Gordon et au nouveau procureur de Gotham, Harvey Dent, afin de contrecarrer un voleur de banque aliéné connu sous le nom du Joker. Ce dernier déchaîne le chaos dans les rues et inscrit l'élimination de Batman à son ordre du jour personnel.",
+    "tags": [
+      "the-dark-knight",
+      "2008",
+      "Le Chevalier noir"
+    ],
+    "thumbnail": "https://media.themoviedb.org/t/p/w440_and_h660_face/skRiu7FQcLxTo76N8AzpBMQdH0E.jpg",
+    "embed": {
+      "provider": "vidking",
+      "iframe": "<iframe src=\"https://www.vidking.net/embed/movie/155\" allowfullscreen></iframe>",
+      "url": "https://www.vidking.net/embed/movie/155-the-dark-knight"
+    },
+    "meta": {
+      "duration": "",
+      "author": "Le Chevalier noir",
+      "date_added": "18 juillet 2008",
+      "source": "TMDB"
+    }
+  },
+  {
+    "id": "49026",
+    "type": "film",
+    "title": "The Dark Knight Rises",
+    "description": "Huit ans après que la mort d'Harvey Dent eut forcé Batman à la retraite, un terroriste mystérieux prend en otage les habitants de Gotham City en coupant tout contact avec l'extérieur et en plaçant une bombe nucléaire au centre de la ville. Après une féroce bagarre contre Bane, Batman est sérieusement blessé. Alors que les habitants, menés par le Commissaire Gordon et un jeune policier nommé Blake, essaient de s'organiser, Bruce Wayne doit mieux comprendre son ennemi avant de l'affronter à nouveau. Dans sa quête, une voleuse se joint à lui.",
+    "tags": [
+      "the-dark-knight-rises",
+      "2012",
+      "L'ascension du chevalier noir"
+    ],
+    "thumbnail": "https://media.themoviedb.org/t/p/w440_and_h660_face/bUjf0sU1CgtO4OzjHE1ht6Ug9ND.jpg",
+    "embed": {
+      "provider": "vidking",
+      "iframe": "<iframe src=\"https://www.vidking.net/embed/movie/49026\" allowfullscreen></iframe>",
+      "url": "https://www.vidking.net/embed/movie/49026-the-dark-knight-rises"
+    },
+    "meta": {
+      "duration": "",
+      "author": "L'ascension du chevalier noir",
+      "date_added": "20 juillet 2012",
+      "source": "TMDB"
+    }
+  }
+]

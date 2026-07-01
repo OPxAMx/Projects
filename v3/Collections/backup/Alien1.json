@@ -1,0 +1,94 @@
+[
+  {
+    "id": "348",
+    "type": "film",
+    "title": "Alien",
+    "description": "En 2122. Le Nostromo, vaisseau de commerce, fait route vers la Terre avec à son bord un équipage de sept personnes en hibernation et une cargaison de minerais. Il interrompt soudain sa course suite à la réception d'un mystérieux message provenant d'une planète inexplorée. Réveillé par l'ordinateur de bord, l'équipage se rend sur place et découvre les restes d'un gigantesque vaisseau extraterrestre dont le seul passager semble être mort dans d'étranges circonstances...",
+    "tags": [
+      "alien",
+      "1979",
+      "Alien : Le 8e Passager"
+    ],
+    "thumbnail": "https://media.themoviedb.org/t/p/w440_and_h660_face/bsBnmIIRmYdOWUPI2AT3Pq7Mkf5.jpg",
+    "embed": {
+      "provider": "vidking",
+      "iframe": "<iframe src=\"https://www.vidking.net/embed/movie/348\" allowfullscreen></iframe>",
+      "url": "https://www.vidking.net/embed/movie/348-alien"
+    },
+    "meta": {
+      "duration": "",
+      "author": "Alien : Le 8e Passager",
+      "date_added": "21 juin 1979",
+      "source": "TMDB"
+    }
+  },
+  {
+    "id": "679",
+    "type": "film",
+    "title": "Aliens",
+    "description": "Après 57 ans de dérive dans l'espace, Ellen Ripley est secourue par la corporation Weyland-Yutani. Malgré son rapport concernant l’incident survenu sur le Nostromo, elle n’est pas prise au sérieux par les militaires quant à la présence de xénomorphes sur la planète LV-426 où se posa son équipage… planète où plusieurs familles de colons ont été envoyés en mission de \"terraformage\". Après la disparition de ces derniers, Ripley décide d'accompagner une escouade de marines dans leur mission de sauvetage... et d’affronter à nouveau la Bête.",
+    "tags": [
+      "aliens",
+      "1986",
+      "Aliens : Le Retour"
+    ],
+    "thumbnail": "https://media.themoviedb.org/t/p/w440_and_h660_face/uafMg29wVV4XvxPS59s8nBBbP4i.jpg",
+    "embed": {
+      "provider": "vidking",
+      "iframe": "<iframe src=\"https://www.vidking.net/embed/movie/679\" allowfullscreen></iframe>",
+      "url": "https://www.vidking.net/embed/movie/679-aliens"
+    },
+    "meta": {
+      "duration": "",
+      "author": "Aliens : Le Retour",
+      "date_added": "18 juillet 1986",
+      "source": "TMDB"
+    }
+  },
+  {
+    "id": "8077",
+    "type": "film",
+    "title": "Alien³",
+    "description": "Après s'être échappée avec Newt et Hicks de la planète alien, Ripley s'écrase sur Florina 161, une planète prison qui héberge un pénitencier. Malheureusement Newt et Hicks ne survivent pas au crash, au contraire d'un visiteur indésirable. La prison ne tolérant aucun arme, et l'aide étant lointaine, les prisonniers doivent survivre avec ce qu'ils ont sur place.",
+    "tags": [
+      "alien",
+      "1992",
+      "Alien 3"
+    ],
+    "thumbnail": "https://media.themoviedb.org/t/p/w440_and_h660_face/z2nli2Do5OjHGqSvaW50e5N4yCI.jpg",
+    "embed": {
+      "provider": "vidking",
+      "iframe": "<iframe src=\"https://www.vidking.net/embed/movie/8077\" allowfullscreen></iframe>",
+      "url": "https://www.vidking.net/embed/movie/8077-alien"
+    },
+    "meta": {
+      "duration": "",
+      "author": "Alien 3",
+      "date_added": "22 mai 1992",
+      "source": "TMDB"
+    }
+  },
+  {
+    "id": "8078",
+    "type": "film",
+    "title": "Alien Resurrection",
+    "description": "Deux cents ans après le suicide de l'officier Ellen Ripley, une équipe de généticiens clone la jeune femme afin de récupérer l'alien vivant en elle, qui n'est autre qu'une reine. À leur grande surprise, le clone de Ripley a hérité de certaines caractéristiques génétiques de l'alien et ce dernier possède en partie la mémoire de Ripley. Afin d'étudier cette fascinante espèce et de lui permettre de se reproduire, les scientifiques font appel à des pirates de l'espace qui leur fournissent des « cobayes humains » pour héberger les embryons d'alien. Les généticiens arriveront-ils à apprivoiser ces « bébés » ?",
+    "tags": [
+      "alien-resurrection",
+      "1997",
+      "Alien : La Résurrection"
+    ],
+    "thumbnail": "https://media.themoviedb.org/t/p/w440_and_h660_face/ePPdAnGJk9mR1qNxHhGrIhLAo4Q.jpg",
+    "embed": {
+      "provider": "vidking",
+      "iframe": "<iframe src=\"https://www.vidking.net/embed/movie/8078\" allowfullscreen></iframe>",
+      "url": "https://www.vidking.net/embed/movie/8078-alien-resurrection"
+    },
+    "meta": {
+      "duration": "",
+      "author": "Alien : La Résurrection",
+      "date_added": "26 novembre 1997",
+      "source": "TMDB"
+    }
+  }
+]

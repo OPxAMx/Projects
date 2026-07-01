@@ -1,0 +1,45 @@
+RequestException ID 250546: HTTPSConnectionPool(host='api.themoviedb.org', port=443): Max retries exceeded with url: /3/movie/250546?language=fr-FR (Caused by ResponseError('too many 502 error responses'))
+RequestException ID 250546: HTTPSConnectionPool(host='api.themoviedb.org', port=443): Max retries exceeded with url: /3/movie/250546?language=fr-FR (Caused by ResponseError('too many 502 error responses'))
+RequestException ID 273481: HTTPSConnectionPool(host='api.themoviedb.org', port=443): Max retries exceeded with url: /3/movie/273481?language=fr-FR (Caused by ResponseError('too many 502 error responses'))
+RequestException ID 273481: HTTPSConnectionPool(host='api.themoviedb.org', port=443): Max retries exceeded with url: /3/movie/273481?language=fr-FR (Caused by ResponseError('too many 500 error responses'))
+RequestException ID 400535: HTTPSConnectionPool(host='api.themoviedb.org', port=443): Max retries exceeded with url: /3/movie/400535?language=fr-FR (Caused by ResponseError('too many 502 error responses'))
+RequestException ID 1684860: HTTPSConnectionPool(host='api.themoviedb.org', port=443): Max retries exceeded with url: /3/movie/1684860?language=fr-FR (Caused by ResponseError('too many 502 error responses'))
+RequestException ID 207780: HTTPSConnectionPool(host='api.themoviedb.org', port=443): Max retries exceeded with url: /3/movie/207780?language=fr-FR (Caused by ResponseError('too many 502 error responses'))
+RequestException ID 350837: HTTPSConnectionPool(host='api.themoviedb.org', port=443): Max retries exceeded with url: /3/movie/350837?language=fr-FR (Caused by ResponseError('too many 500 error responses'))
+Tentative 1/5 échouée pour ID 1618818: 404 Client Error: Not Found for url: https://api.themoviedb.org/3/movie/1618818?language=fr-FR. Nouvelle tentative dans 3.5s
+Tentative 2/5 échouée pour ID 1618818: 404 Client Error: Not Found for url: https://api.themoviedb.org/3/movie/1618818?language=fr-FR. Nouvelle tentative dans 5.0s
+Tentative 3/5 échouée pour ID 1618818: 404 Client Error: Not Found for url: https://api.themoviedb.org/3/movie/1618818?language=fr-FR. Nouvelle tentative dans 6.5s
+Tentative 4/5 échouée pour ID 1618818: 404 Client Error: Not Found for url: https://api.themoviedb.org/3/movie/1618818?language=fr-FR. Nouvelle tentative dans 8.0s
+HTTPError ID 1618818: 404 Client Error: Not Found for url: https://api.themoviedb.org/3/movie/1618818?language=fr-FR
+Tentative 1/5 échouée pour ID 1684326: 404 Client Error: Not Found for url: https://api.themoviedb.org/3/movie/1684326?language=fr-FR. Nouvelle tentative dans 3.5s
+Tentative 2/5 échouée pour ID 1684326: 404 Client Error: Not Found for url: https://api.themoviedb.org/3/movie/1684326?language=fr-FR. Nouvelle tentative dans 5.0s
+Tentative 3/5 échouée pour ID 1684326: 404 Client Error: Not Found for url: https://api.themoviedb.org/3/movie/1684326?language=fr-FR. Nouvelle tentative dans 6.5s
+Tentative 4/5 échouée pour ID 1684326: 404 Client Error: Not Found for url: https://api.themoviedb.org/3/movie/1684326?language=fr-FR. Nouvelle tentative dans 8.0s
+HTTPError ID 1684326: 404 Client Error: Not Found for url: https://api.themoviedb.org/3/movie/1684326?language=fr-FR
+Tentative 1/5 échouée pour ID 656663: 502 from TMDB. Nouvelle tentative dans 3.5s
+Tentative 2/5 échouée pour ID 656663: 502 from TMDB. Nouvelle tentative dans 5.0s
+Tentative 3/5 échouée pour ID 656663: 502 from TMDB. Nouvelle tentative dans 6.5s
+Tentative 1/5 échouée pour ID 11133: HTTPSConnectionPool(host='api.themoviedb.org', port=443): Max retries exceeded with url: /3/movie/11133?language=fr-FR (Caused by ProtocolError('Connection aborted.', ConnectionResetError(10054, 'Une connexion existante a dû être fermée par l’hôte distant', None, 10054, None))). Nouvelle tentative dans 3.5s
+Tentative 1/5 échouée pour ID 619139: 404 Client Error: Not Found for url: https://api.themoviedb.org/3/movie/619139?language=fr-FR. Nouvelle tentative dans 3.5s
+Tentative 2/5 échouée pour ID 619139: 404 Client Error: Not Found for url: https://api.themoviedb.org/3/movie/619139?language=fr-FR. Nouvelle tentative dans 5.0s
+Tentative 3/5 échouée pour ID 619139: 404 Client Error: Not Found for url: https://api.themoviedb.org/3/movie/619139?language=fr-FR. Nouvelle tentative dans 6.5s
+Tentative 4/5 échouée pour ID 619139: 404 Client Error: Not Found for url: https://api.themoviedb.org/3/movie/619139?language=fr-FR. Nouvelle tentative dans 8.0s
+HTTPError ID 619139: 404 Client Error: Not Found for url: https://api.themoviedb.org/3/movie/619139?language=fr-FR
+HTTPSConnectionPool(host='api.themoviedb.org', port=443): Max retries exceeded with url: /3/movie/4327?language=fr-FR (Caused by ProtocolError('Connection aborted.', ConnectionResetError(10054, 'Une connexion existante a dû être fermée par l’hôte distant', None, 10054, None)))
+HTTPSConnectionPool(host='api.themoviedb.org', port=443): Max retries exceeded with url: /3/movie/4982?language=fr-FR (Caused by NameResolutionError("HTTPSConnection(host='api.themoviedb.org', port=443): Failed to resolve 'api.themoviedb.org' ([Errno 11001] getaddrinfo failed)"))
+HTTPSConnectionPool(host='api.themoviedb.org', port=443): Max retries exceeded with url: /3/movie/1592?language=fr-FR (Caused by NameResolutionError("HTTPSConnection(host='api.themoviedb.org', port=443): Failed to resolve 'api.themoviedb.org' ([Errno 11001] getaddrinfo failed)"))
+HTTPSConnectionPool(host='api.themoviedb.org', port=443): Max retries exceeded with url: /3/movie/1196573?language=fr-FR (Caused by NameResolutionError("HTTPSConnection(host='api.themoviedb.org', port=443): Failed to resolve 'api.themoviedb.org' ([Errno 11001] getaddrinfo failed)"))
+HTTPSConnectionPool(host='api.themoviedb.org', port=443): Max retries exceeded with url: /3/movie/930094?language=fr-FR (Caused by NameResolutionError("HTTPSConnection(host='api.themoviedb.org', port=443): Failed to resolve 'api.themoviedb.org' ([Errno 11001] getaddrinfo failed)"))
+HTTPSConnectionPool(host='api.themoviedb.org', port=443): Max retries exceeded with url: /3/movie/565?language=fr-FR (Caused by NameResolutionError("HTTPSConnection(host='api.themoviedb.org', port=443): Failed to resolve 'api.themoviedb.org' ([Errno 11001] getaddrinfo failed)"))
+HTTPSConnectionPool(host='api.themoviedb.org', port=443): Max retries exceeded with url: /3/movie/3134?language=fr-FR (Caused by NameResolutionError("HTTPSConnection(host='api.themoviedb.org', port=443): Failed to resolve 'api.themoviedb.org' ([Errno 11001] getaddrinfo failed)"))
+HTTPSConnectionPool(host='api.themoviedb.org', port=443): Max retries exceeded with url: /3/movie/497582?language=fr-FR (Caused by NameResolutionError("HTTPSConnection(host='api.themoviedb.org', port=443): Failed to resolve 'api.themoviedb.org' ([Errno 11001] getaddrinfo failed)"))
+HTTPSConnectionPool(host='api.themoviedb.org', port=443): Max retries exceeded with url: /3/movie/1257009?language=fr-FR (Caused by NameResolutionError("HTTPSConnection(host='api.themoviedb.org', port=443): Failed to resolve 'api.themoviedb.org' ([Errno 11001] getaddrinfo failed)"))
+HTTPSConnectionPool(host='api.themoviedb.org', port=443): Max retries exceeded with url: /3/movie/877703?language=fr-FR (Caused by NameResolutionError("HTTPSConnection(host='api.themoviedb.org', port=443): Failed to resolve 'api.themoviedb.org' ([Errno 11001] getaddrinfo failed)"))
+HTTPSConnectionPool(host='api.themoviedb.org', port=443): Max retries exceeded with url: /3/movie/118340?language=fr-FR (Caused by NameResolutionError("HTTPSConnection(host='api.themoviedb.org', port=443): Failed to resolve 'api.themoviedb.org' ([Errno 11001] getaddrinfo failed)"))
+HTTPSConnectionPool(host='api.themoviedb.org', port=443): Max retries exceeded with url: /3/movie/619803?language=fr-FR (Caused by NameResolutionError("HTTPSConnection(host='api.themoviedb.org', port=443): Failed to resolve 'api.themoviedb.org' ([Errno 11001] getaddrinfo failed)"))
+HTTPSConnectionPool(host='api.themoviedb.org', port=443): Max retries exceeded with url: /3/movie/138832?language=fr-FR (Caused by NameResolutionError("HTTPSConnection(host='api.themoviedb.org', port=443): Failed to resolve 'api.themoviedb.org' ([Errno 11001] getaddrinfo failed)"))
+HTTPSConnectionPool(host='api.themoviedb.org', port=443): Max retries exceeded with url: /3/movie/427641?language=fr-FR (Caused by NameResolutionError("HTTPSConnection(host='api.themoviedb.org', port=443): Failed to resolve 'api.themoviedb.org' ([Errno 11001] getaddrinfo failed)"))
+404 Client Error: Not Found for url: https://api.themoviedb.org/3/movie/1618818?language=fr-FR
+404 Client Error: Not Found for url: https://api.themoviedb.org/3/movie/1684326?language=fr-FR
+HTTPSConnectionPool(host='api.themoviedb.org', port=443): Max retries exceeded with url: /3/movie/12539?language=fr-FR (Caused by ProtocolError('Connection aborted.', ConnectionResetError(10054, 'Une connexion existante a dû être fermée par l’hôte distant', None, 10054, None)))
+404 Client Error: Not Found for url: https://api.themoviedb.org/3/movie/619139?language=fr-FR

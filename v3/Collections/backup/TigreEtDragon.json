@@ -1,0 +1,80 @@
+[
+  {
+    "id": "263341",
+    "type": "film",
+    "title": "Tigre et Dragon 2",
+    "description": "Tigre et Dragon 2 reprend les thèmes du premier opus et développe son intrigue autour d’une histoire d’amour perdu, d’une épée légendaire et d'une quête de rédemption. Et ce sur fond de combats d’arts martiaux entre le bien et le mal.",
+    "tags": [
+      "Action",
+      "Aventure",
+      "Drame"
+    ],
+    "thumbnail": "https://image.tmdb.org/t/p/w500/sRk9FfxAARZJFkvMJOSiI9QS5TQ.jpg",
+    "embed": {
+      "provider": "vidking",
+      "iframe": "<iframe src=\"https://www.vidking.net/embed/movie/263341\" allowfullscreen></iframe>",
+      "url": "https://www.vidking.net/embed/movie/263341-crouching-tiger-hidden-dragon-sword-of-destiny"
+    },
+    "meta": {
+      "duration": "",
+      "author": "Tigre et Dragon 2",
+      "date_added": "26 février 2016",
+      "source": "TMDB"
+    },
+    "original_title": "Crouching Tiger, Hidden Dragon: Sword of Destiny",
+    "description_fr": "Tigre et Dragon 2 reprend les thèmes du premier opus et développe son intrigue autour d’une histoire d’amour perdu, d’une épée légendaire et d'une quête de rédemption. Et ce sur fond de combats d’arts martiaux entre le bien et le mal.",
+    "backdrop": "https://image.tmdb.org/t/p/w500/rT54o3GyVFvk5EQMXSLoSTnUo6V.jpg",
+    "release_date": "2016-02-18",
+    "runtime": 100,
+    "vote_average": 6.15,
+    "popularity": 3.4826,
+    "status": "Released",
+    "homepage": "",
+    "language": "en",
+    "genres": [
+      "Action",
+      "Aventure",
+      "Drame"
+    ],
+    "production_companies": [
+      "The Weinstein Company",
+      "Yucaipa Films",
+      "Pegasus Taihe Entertainment"
+    ],
+    "source": "TMDb API",
+    "tmdb_id": "263341",
+    "cast": [
+      "Donnie Yen",
+      "Michelle Yeoh",
+      "Jason Scott Lee",
+      "Natasha Liu Bordizzo",
+      "Harry Shum Jr.",
+      "Eugenia Yuan",
+      "Roger Yuan",
+      "Chris Pang",
+      "陳鈺藝",
+      "Woon Young Park"
+    ],
+    "director": "Yuen Woo-Ping",
+    "producers": [
+      "Jeff Betancourt",
+      "Ralph Winter",
+      "黃永輝",
+      "Harvey Weinstein",
+      "Bob Weinstein",
+      "Peter Berg",
+      "Charlie Nguyễn",
+      "David Thwaites",
+      "Morten Tyldum",
+      "Sarah Aubrey",
+      "Sarah Bowen",
+      "Ron Burkle",
+      "Pauline Fischer",
+      "David C. Glasser",
+      "La Peikang",
+      "Ted Sarandos",
+      "Sun Jianjun",
+      "Anna Wang"
+    ]
+  }
+]

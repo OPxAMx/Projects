@@ -1,0 +1,28 @@
+[
+  {
+    "id": "",
+    "type": "film",
+    "title": "",
+    "description": "",
+    "tags": [
+      "",
+      "",
+      ""
+    ],
+    "thumbnail": "",
+    "embed": {
+      "provider": "",
+      "iframe": "<iframe src=\"https://www.vidking.net/embed/movie/\" allowfullscreen></iframe>",
+      "url": "https://www.vidking.net/embed/movie/",
+      "iframe_fr": "<iframe src=\"\" allowfullscreen></iframe>",
+      "url_fr": ""
+    },
+    "meta": {
+      "duration": "",
+      "author": "",
+      "date_added": "",
+      "source": "Tmdb"
+    }
+  },
+  { "id": "", "type": "film", "title": "", "description": "", "tags": [""], "thumbnail": "", "embed": { "provider": "", "iframe": "<iframe src=\"https://www.vidking.net/embed/movie/\" allowfullscreen></iframe>", "url": "https://www.vidking.net/embed/movie/", "iframe_fr": "<iframe src=\"\" allowfullscreen></iframe>", "url_fr": "" }, "meta": { "duration": "", "author": "", "date_added": "", "source": "Tmdb" } },
+]

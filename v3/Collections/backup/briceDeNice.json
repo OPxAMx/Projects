@@ -1,0 +1,114 @@
+[
+  {
+    "id": "17350",
+    "type": "film",
+    "title": "Brice de Nice",
+    "description": "Éternel ado de presque 30 ans, délaissé par un père affairiste et une mère absente, Brice s'est réfugié dans une posture, un « style » avec lesquels il exprime son vrai vécu intrinsèque : Brice est surfeur, winner... comme Bodhi, le héros de POINT BREAK, son film culte, Brice attend donc SA vague... à Nice ! Personne pourtant ne se risque à se moquer de Brice : redoutable bretteur du langage, Brice s'est fait une spécialité de « casser » tout et tout le monde par le truchement de ses reparties verbales. Il fallait bien qu'un jour Brice soit rattrapé par la réalité...",
+    "tags": [
+      "Comédie"
+    ],
+    "thumbnail": "https://image.tmdb.org/t/p/w500/eak0GxOsRmvEbr53yf7jbM8SD8u.jpg",
+    "embed": {
+      "provider": "vidking",
+      "iframe": "<iframe src=\"https://www.vidking.net/embed/movie/17350\" allowfullscreen></iframe>",
+      "url": "https://www.vidking.net/embed/movie/17350-brice-de-nice"
+    },
+    "meta": {
+      "duration": "",
+      "author": "Brice de Nice",
+      "date_added": "24 juin 2005",
+      "source": "TMDB"
+    },
+    "original_title": "Brice de Nice",
+    "description_fr": "Éternel ado de presque 30 ans, délaissé par un père affairiste et une mère absente, Brice s'est réfugié dans une posture, un « style » avec lesquels il exprime son vrai vécu intrinsèque : Brice est surfeur, winner... comme Bodhi, le héros de POINT BREAK, son film culte, Brice attend donc SA vague... à Nice ! Personne pourtant ne se risque à se moquer de Brice : redoutable bretteur du langage, Brice s'est fait une spécialité de « casser » tout et tout le monde par le truchement de ses reparties verbales. Il fallait bien qu'un jour Brice soit rattrapé par la réalité...",
+    "backdrop": "https://image.tmdb.org/t/p/w500/ssfctwEwIrXReQrY7NJAJZGCVWV.jpg",
+    "release_date": "2005-03-30",
+    "runtime": 98,
+    "vote_average": 5.525,
+    "popularity": 0.8991,
+    "status": "Released",
+    "homepage": "https://www.snd-films.com/movies/16",
+    "language": "fr",
+    "genres": [
+      "Comédie"
+    ],
+    "production_companies": [
+      "M6 Films"
+    ],
+    "source": "TMDb API",
+    "tmdb_id": "17350",
+    "cast": [
+      "Jean Dujardin",
+      "Clovis Cornillac",
+      "Élodie Bouchez",
+      "Bruno Salomone",
+      "Alexandra Lamy",
+      "Delphine Chanéac",
+      "François Chattot",
+      "Mathias Mlekuz",
+      "Antoine Duléry",
+      "Lannick Gautry"
+    ],
+    "director": "James Huth",
+    "producers": [
+      "Eric Altmayer",
+      "Nicolas Altmayer"
+    ]
+  },
+  {
+    "id": "375798",
+    "type": "film",
+    "title": "Brice 3",
+    "description": "Brice est de retour. Le monde a changé, mais pas lui. Quand son meilleur ami, Marius, l'appelle à l'aide, il part dans une grande aventure à l'autre bout du monde ... Les voyages forment la « jaunesse » mais restera t'il le roi de la casse ?",
+    "tags": [
+      "Comédie"
+    ],
+    "thumbnail": "https://image.tmdb.org/t/p/w500/vcF4Jh9UsNVT8LzC8ATxsHCI9J7.jpg",
+    "embed": {
+      "provider": "vidking",
+      "iframe": "<iframe src=\"https://www.vidking.net/embed/movie/375798\" allowfullscreen></iframe>",
+      "url": "https://www.vidking.net/embed/movie/375798-brice-3"
+    },
+    "meta": {
+      "duration": "",
+      "author": "Brice 3",
+      "date_added": "19 octobre 2016",
+      "source": "TMDB"
+    },
+    "original_title": "Brice 3",
+    "description_fr": "Brice est de retour. Le monde a changé, mais pas lui. Quand son meilleur ami, Marius, l'appelle à l'aide, il part dans une grande aventure à l'autre bout du monde ... Les voyages forment la « jaunesse » mais restera t'il le roi de la casse ?",
+    "backdrop": "https://image.tmdb.org/t/p/w500/bznM6AcTWgHRIU8g7eHmMiFPhAg.jpg",
+    "release_date": "2016-10-19",
+    "runtime": 94,
+    "vote_average": 4.2,
+    "popularity": 0.8733,
+    "status": "Released",
+    "homepage": "https://www.gaumont.com/fr/film/brice-3",
+    "language": "fr",
+    "genres": [
+      "Comédie"
+    ],
+    "production_companies": [
+      "M6 Films",
+      "Mandarin Cinéma",
+      "JD Prod",
+      "Gaumont"
+    ],
+    "source": "TMDb API",
+    "tmdb_id": "375798",
+    "cast": [
+      "Jean Dujardin",
+      "Clovis Cornillac",
+      "Bruno Salomone",
+      "Alban Lenoir",
+      "Noëlle Perna",
+      "Louis-Do de Lencquesaing",
+      "Jean-Michel Lahmi",
+      "Katrina Grey",
+      "Anne Serra",
+      "Mégane Lemiel"
+    ],
+    "director": "James Huth",
+    "producers": []
+  }
+]
