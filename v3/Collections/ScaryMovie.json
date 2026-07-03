@@ -1,0 +1,28 @@
+[
+    {
+    "id": "c02",
+    "title": "Scary Movie Collection",
+    "cover": "https://image.tmdb.org/t/p/w500/xWBiXclrRmTggQHMRsIn84YHavs.jpg",
+    "count": "6 films",
+    "description": "{descriptionCollection}",
+    "posters": [
+      {
+        "src": "https://image.tmdb.org/t/p/w500/2Glue9aj5VDv6q4x9v8PwilmUfY.jpg",
+        "alt": "Scary Movie"
+      },
+      {
+        "src": "https://image.tmdb.org/t/p/w500/mMp80A2GMlHBCvescywvrJqGcF6.jpg",
+        "alt": "Scary Movie 2"
+      },
+      {
+        "src": "https://image.tmdb.org/t/p/w500/xKj6r2pmdBScuEWBDYOhZ3gh9zS.jpg",
+        "alt": "Scary Movie 3"
+      },
+      {
+        "src": "https://image.tmdb.org/t/p/w500/4Y9VAoqpMA3HkqwVCaetT0GZgBG.jpg",
+        "alt": "Scary Movie 4"
+      }
+    ],
+    "extra": 2
+  }
+]

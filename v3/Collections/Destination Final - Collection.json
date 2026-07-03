@@ -1,0 +1,28 @@
+[
+    {
+    "id": "c05",
+    "title": "Destination Finale - Saga",
+    "cover": "https://image.tmdb.org/t/p/w500/y3aWOInifbGKXM34KjtcMITrZRZ.jpg",
+    "count": "7 films",
+    "description": "Destination finale est une série de films d'horreur centrés sur les thèmes du fatalisme, de la prédestination et de la précognition, en relation avec la mort.",
+    "posters": [
+      {
+        "src": "https://image.tmdb.org/t/p/w200/jP2pfzQlvixYAbBkoXGPkjCLVRj.jpg",
+        "alt": "Destination Finale 3"
+      },
+      {
+        "src": "https://image.tmdb.org/t/p/w200/dT4lecoyrfEuSHmcFs5Kqef3giJ.jpg",
+        "alt": "Destination Finale 2"
+      },
+      {
+        "src": "https://image.tmdb.org/t/p/w200/ooTB3486ybRLrIr46vdjEhoYcsy.jpg",
+        "alt": "Destination Finale 1"
+      },
+      {
+        "src": "https://image.tmdb.org/t/p/w200/f5WuHcfoQTP0ZT9p9qipDYk7b9I.jpg",
+        "alt": "Destination Finale 4"
+      }
+    ],
+    "extra": 3
+  }
+]

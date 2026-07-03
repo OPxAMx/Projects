@@ -1,0 +1,36 @@
+[
+    {
+    "id": "c03",
+    "title": "Star Trek Collection",
+    "cover": "https://image.tmdb.org/t/p/w500/ePr0k72sypMpZYubz6w34dcW68Y.jpg",
+    "count": "23 Movies & TV Shows",
+    "description": "XXIVe siècle. Alors que l'Enterprise patrouille au fond de la galaxie, le capitaine Picard et ses hommes reçoivent un message de détresse : les terribles Borg, mi-hommes mi-machines, sont en train d'attaquer la Terre afin de changer l'histoire de l'Univers.",
+    "posters": [
+      {
+        "src": "https://image.tmdb.org/t/p/w500/bkK2EHhhij0L5ePWLQORBrzO4IN.jpg",
+        "alt": "Star Trek I"
+      },
+      {
+        "src": "https://image.tmdb.org/t/p/w500/avb0wORx5CzhSfs0ZnKh1UeBsya.jpg",
+        "alt": "Star Trek II : La colère de Khan"
+      },
+      {
+        "src": "https://image.tmdb.org/t/p/w500/4iBOsMZ61fGsaOu6arem8EnOD4B.jpg",
+        "alt": "Star Trek : Premier contact"
+      },
+      {
+        "src": "https://image.tmdb.org/t/p/w500/c1feYVjxUb8QGdVxsmt7Q2FIzc.jpg",
+        "alt": "Star Trek IV : Retour sur Terre"
+      },
+      {
+        "src": "https://image.tmdb.org/t/p/w500/jA1lEjn8kGIrYKiw29sZE3qB7HT.jpg",
+        "alt": "Star Trek VI : Terre inconnue"
+      },
+      {
+        "src": "https://image.tmdb.org/t/p/w500/uwBoOjAEWSAXtib2Y6Jw96H6DNg.jpg",
+        "alt": "Star Trek V : L'ultime frontière"
+      }
+    ],
+    "extra": 17
+  }
+]

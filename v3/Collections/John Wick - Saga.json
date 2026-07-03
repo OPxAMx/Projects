@@ -1,0 +1,29 @@
+[
+    {
+    "id": "c06",
+    "title": "John Wick Saga",
+    "cover": "https://image.tmdb.org/t/p/w500/jgL4XOWWjZPq9aROVDXdIAEBl3S.jpg",
+    "count": "6 Films",
+    "description": "John Wick, ancien tueur à gages légendaire, est contraint de reprendre les armes après une tragédie personnelle. Son retour dans le monde criminel le confronte à des organisations puissantes et à des adversaires redoutables, dans un univers codifié et impitoyable. Alliant action spectaculaire, chorégraphies maîtrisées et atmosphère sombre, cette saga explore les thèmes de la vengeance, de la loyauté et des conséquences des choix.",
+
+    "posters": [
+      {
+        "src": "https://image.tmdb.org/t/p/w500/7yCzmVL0BI1aSvzgN3jCtXLtyFR.jpg",
+        "alt": "John Wick"
+      },
+      {
+        "src": "https://image.tmdb.org/t/p/w500/r687UV1zQ5KDB9AxRokRscWIRvt.jpg",
+        "alt": "John Wick : Chapter 2"
+      },
+      {
+        "src": "https://image.tmdb.org/t/p/w500/efS6JZ0RRFxVq8QZ6OheRDMupkF.jpg",
+        "alt": "John Wick 3 : Parabellum"
+      },
+      {
+        "src": "https://image.tmdb.org/t/p/w500/8Qj4937126789456789456789456789456789.jpg",
+        "alt": "John Wick : Chapter 4"
+      }
+    ],
+    "extra": 2
+  }
+]

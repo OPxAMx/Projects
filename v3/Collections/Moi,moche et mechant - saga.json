@@ -1,0 +1,28 @@
+[
+    {
+    "id": "c86066",
+    "title": "Moi, moche et méchant - Saga",
+    "cover": "https://image.tmdb.org/t/p/w500/wOBgRb2Fa0axJVsW7tQC3oNRLrf.jpg",
+    "count": "4 films",
+    "description": "Les aventures de Gru et des mignons.",
+    "posters": [
+      {
+        "src": "https://image.tmdb.org/t/p/original/wuhJx9bTbxHfJHeeR3L8uRjAZ7C.jpg",
+        "alt": "Moi, moche et méchant"
+      },
+      {
+        "src": "https://image.tmdb.org/t/p/original/2e8hcPLaWjLXdQLgdi5otr4Jj9L.jpg",
+        "alt": "Moi, moche et méchant 2"
+      },
+      {
+        "src": "https://image.tmdb.org/t/p/original/3e8hcPLaWjLXdQLgdi5otr4Jj9L.jpg",
+        "alt": "Moi, moche et méchant 3"
+      },
+      {
+        "src": "https://image.tmdb.org/t/p/original/4e8hcPLaWjLXdQLgdi5otr4Jj9L.jpg",
+        "alt": "Moi, moche et méchant 4"
+      }
+    ],
+    "extra": 0
+    }   
+]

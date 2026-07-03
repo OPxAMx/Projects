@@ -1,0 +1,28 @@
+[
+    {
+    "id": "c2150",
+    "title": "Shrek Integrale",
+    "cover": "https://image.tmdb.org/t/p/w500/ghYHSDFyZI1mJz5qpeXPFrKeKyT.jpg",
+    "count": "5 Films",
+    "description": "Shrek est un ogre grincheux qui vit seul dans une mare. Lorsqu'il découvre que le roi de la contrée l'a envoyé pour sauver la princesse Fiona, il accepte la mission et se retrouve entraîné dans une aventure pleine de rebondissements.",
+    "posters": [
+      {
+        "src": "https://image.tmdb.org/t/p/w500/ghYHSDFyZI1mJz5qpeXPFrKeKyT.jpg",
+        "alt": "Shrek"
+      },
+      {
+        "src": "https://image.tmdb.org/t/p/original/2e8hcPLaWjLXdQLgdi5otr4Jj9L.jpg",
+        "alt": "Shrek 2"
+      },
+      {
+        "src": "https://image.tmdb.org/t/p/original/3e8hcPLaWjLXdQLgdi5otr4Jj9L.jpg",
+        "alt": "Shrek 3"
+      },
+      {
+        "src": "https://image.tmdb.org/t/p/original/4e8hcPLaWjLXdQLgdi5otr4Jj9L.jpg",
+        "alt": "Shrek 4"
+      }
+    ],
+    "extra": 1
+  }
+]
