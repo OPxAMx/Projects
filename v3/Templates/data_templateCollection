@@ -1,0 +1,28 @@
+[
+    {
+    "id": "{randomID}",
+    "title": "{titleCollection}",
+    "cover": "{url_backdrop}",
+    "count": "{#count}",
+    "description": "{descriptionCollection}",
+    "posters": [
+      {
+        "src": "{url_thumbnail}",
+        "alt": "{titleVideo}"
+      },
+      {
+        "src": "{url_thumbnail}",
+        "alt": "{titleVideo}"
+      },
+      {
+        "src": "{url_thumbnail}",
+        "alt": "{titleVideo}"
+      },
+      {
+        "src": "{url_thumbnail}",
+        "alt": "{titleVideo}"
+      }
+    ],
+    "extra": 
+  }
+]
