@@ -34,7 +34,7 @@ def get_tmdb_trailer(tmdb_id):
 
 
 def process_uem_list(input_path, output_path):
-    """Charge une LISTE UEM, ajoute iframe_preview à chaque film, sauvegarde."""
+    """Charge une LISTE UEM, ajoute videos à chaque film, sauvegarde."""
 
     if not os.path.exists(input_path):
         print(f"[ERREUR] Le fichier {input_path} n'existe pas.")
@@ -53,11 +53,11 @@ def process_uem_list(input_path, output_path):
 
         if not tmdb_id:
             print(f"[AVERTISSEMENT] tmdb_id manquant pour {title}, skip.")
-            item["iframe_preview"] = ""
+            item["videos"] = ""
             continue
 
         trailer_url = get_tmdb_trailer(tmdb_id)
-        item["iframe_preview"] = trailer_url
+        item["videos"] = trailer_url
 
         print(f"[OK] {title} → {trailer_url}")
 
