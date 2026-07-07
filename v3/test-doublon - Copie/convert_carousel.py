@@ -12,6 +12,8 @@ def make_card(item):
     release_date = item.get("release_date", "")
     runtime = item.get("runtime", 0)
     description = item.get("description", "")
+    url_trailer = item.get("url_trailer", "")
+    logos = item.get("logos", "")
 
     duration = f"{runtime} min" if runtime else ""
 
@@ -22,12 +24,12 @@ def make_card(item):
         <img src="{backdrop}" alt="wallpaper" />
 
         <div class="yt-preview">
-          <!-- Pas de vidéo, juste un conteneur vide -->
+          {url_trailer}
           <button class="unmute-btn">🔊</button>
         </div>
 
         <div class="content">
-          <h1>{title}</h1>
+          <h1><img src="{logos}" class="title"></h1>
 
           <div class="infos">
             <span>·&nbsp;&nbsp; {release_date} &nbsp;&nbsp;·&nbsp;&nbsp; {duration}</span>

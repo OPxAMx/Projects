@@ -1,0 +1,408 @@
+import json
+import os
+import re
+import time
+from datetime import datetime
+from pathlib import Path
+from typing import Any
+
+import requests
+from requests.adapters import HTTPAdapter
+from urllib3.util.retry import Retry
+
+TMDB_API_KEY = os.getenv(
+    "TMDB_API_KEY",
+    "eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiI5NDAwODY3YWVmNGU1OWZhM2IyMjUxNWEzYmE0MzA4YiIsIm5iZiI6MTc3NjI4NDk3OS4zNjMwMDAyLCJzdWIiOiI2OWRmZjUzMzQxMzA0YTM0ZGQzOTQ4NTYiLCJzY29wZXMiOlsiYXBpX3JlYWQiXSwidmVyc2lvbiI6MX0.6bfDm-Rdmk7K5-teBKkZTKmfBX-8WTN2IvZlr2OxAR0",
+)
+REQUEST_DELAY_SECONDS = 1
+SAVE_EVERY_N_ITEMS = 20
+SCRIPT_DIR = Path(__file__).resolve().parent
+OUTPUT_FILE = str(SCRIPT_DIR / "data_updated.json")
+LOG_FILE = str(SCRIPT_DIR / "tmdb_scraper.log")
+INPUT_FILE = str(SCRIPT_DIR / "discover-movie-output.json")
+MAX_ATTEMPTS = 5
+BACKOFF_SECONDS = 2.0
+TAG_MODE = "append"  # IMPORTANT : conserver tags existants
+
+
+def build_request_kwargs() -> dict[str, Any]:
+    if TMDB_API_KEY.startswith("eyJ"):
+        return {
+            "headers": {"Authorization": f"Bearer {TMDB_API_KEY}"},
+            "params": {"language": "fr-FR"},
+        }
+    return {
+        "params": {"api_key": TMDB_API_KEY, "language": "fr-FR"},
+        "headers": {},
+    }
+
+
+def create_session() -> requests.Session:
+    session = requests.Session()
+    retries = Retry(total=0)
+    adapter = HTTPAdapter(max_retries=retries)
+    session.mount("https://", adapter)
+    session.mount("http://", adapter)
+    return session
+
+
+def log_error(message: str) -> None:
+    with open(LOG_FILE, "a", encoding="utf-8") as log_file:
+        log_file.write(message + "\n")
+
+
+def save_data(data: list[dict[str, Any]], path: str) -> None:
+    with open(path, "w", encoding="utf-8") as fh:
+        json.dump(data, fh, ensure_ascii=False, indent=2)
+
+
+def translate_text(text: str) -> str:
+    if not text:
+        return ""
+    try:
+        from deep_translator import GoogleTranslator
+        return GoogleTranslator(source="auto", target="fr").translate(text)
+    except Exception as exc:
+        print(f"⚠️ Traduction non disponible : {exc}")
+        return text
+
+
+def build_image_url(path: str | None) -> str:
+    if not path:
+        return ""
+    return f"https://image.tmdb.org/t/p/w500{path}"
+
+
+def add_tag(item, tag):
+    """Ajoute un tag sans jamais écraser les tags existants."""
+    if "tags" not in item:
+        item["tags"] = []
+    if tag and tag not in item["tags"]:
+        item["tags"].append(tag)
+
+
+def extract_iframe_src(iframe: str) -> str:
+    if not iframe:
+        return ""
+    match = re.search(r'src=["\']([^"\']+)["\']', iframe)
+    return match.group(1) if match else ""
+
+
+def ensure_embed_url(item, provider_name: str) -> None:
+    if "embed" not in item:
+        item["embed"] = {}
+
+    embed = item["embed"]
+    item_id = str(item.get("id", "")).strip()
+    if not item_id:
+        embed["provider"] = provider_name or ""
+        embed["iframe"] = ""
+        embed["url"] = ""
+        return
+
+    type_media = str(item.get("type", "")).strip().lower()
+    if type_media in {"series", "tv", "show", "serie"}:
+        media_path = "tv"
+    else:
+        media_path = "movie"
+
+    title = str(item.get("title", "") or "").strip()
+    slug = re.sub(r"[^a-z0-9]+", "-", title.lower()).strip("-")
+    if slug:
+        existing_url = f"https://www.vidking.net/embed/{media_path}/{slug}/{item_id}"
+    else:
+        existing_url = f"https://www.vidking.net/embed/{media_path}/{item_id}"
+
+    embed["provider"] = provider_name or ""
+    embed["iframe"] = f'<iframe src="{existing_url}" allowfullscreen></iframe>'
+    embed["url"] = existing_url
+
+
+def format_french_date(date_str: str | None) -> str:
+    if not date_str:
+        return ""
+    for fmt in ("%Y-%m-%d", "%Y/%m/%d"):
+        try:
+            parsed = datetime.strptime(date_str, fmt)
+            month_names = [
+                "janvier",
+                "février",
+                "mars",
+                "avril",
+                "mai",
+                "juin",
+                "juillet",
+                "août",
+                "septembre",
+                "octobre",
+                "novembre",
+                "décembre",
+            ]
+            return f"{parsed.day} {month_names[parsed.month - 1]} {parsed.year}"
+        except ValueError:
+            continue
+    return date_str
+
+
+def build_normalized_item(item: dict[str, Any]) -> dict[str, Any]:
+    item_id = str(item.get("id", "") or "")
+    media_type = str(item.get("type", "") or "movie").lower()
+    is_movie = media_type in {"movie", "film", "movies"}
+    output_type = "film" if is_movie else "serie"
+
+    title = str(item.get("title", "") or "")
+    description = str(item.get("description", "") or "")
+    release_date = str(item.get("release_date", "") or "")
+    runtime = item.get("runtime", "")
+    vote_average = item.get("vote_average")
+    popularity = item.get("popularity")
+    status = str(item.get("status", "") or "")
+    homepage = str(item.get("homepage", "") or "")
+    language = str(item.get("language", "") or "")
+    genres = [g for g in item.get("genres", []) if g]
+    if not genres:
+        genres = [g for g in item.get("tags", []) if g and g not in {provider}]
+    production_companies = [c for c in item.get("production_companies", []) if c]
+    cast = [c for c in item.get("cast", []) if c]
+    director = str(item.get("director", "") or "")
+    producers = [p for p in item.get("producers", []) if p]
+    videos = item.get("videos", []) or []
+    provider = str(item.get("embed", {}).get("provider", "") or "")
+    year = release_date[:4] if len(release_date) >= 4 else ""
+
+    tags: list[str] = []
+    for genre in genres:
+        if genre and genre not in tags:
+            tags.append(genre)
+    if provider and provider not in tags:
+        tags.append(provider)
+
+    embed = item.get("embed", {}) or {}
+    normalized = {
+        "id": item_id,
+        "type": output_type,
+        "title": title,
+        "description": description,
+        "tags": tags,
+        "thumbnail": item.get("thumbnail", ""),
+        "embed": {
+            "provider": provider,
+            "iframe": str(embed.get("iframe", "") or ""),
+            "url": str(embed.get("url", "") or ""),
+        },
+        "meta": {
+            "duration": "",
+            "author": "",
+            "date_added": format_french_date(release_date),
+            "source": "TMDB",
+        },
+        "original_title": str(item.get("original_title", "") or title),
+        "description_fr": description,
+        "backdrop": item.get("backdrop", ""),
+        "release_date": release_date,
+        "runtime": runtime,
+        "vote_average": vote_average,
+        "popularity": popularity,
+        "status": status,
+        "homepage": homepage,
+        "language": language,
+        "genres": genres,
+        "production_companies": production_companies,
+        "source": "TMDb API",
+        "tmdb_id": item_id,
+        "cast": cast,
+        "director": director,
+        "producers": producers,
+        "videos": videos,
+    }
+    return normalized
+
+
+def build_video_iframe(video: dict[str, Any]) -> str:
+    site = str(video.get("site", "")).strip().lower()
+    key = str(video.get("key", "")).strip()
+    if site == "youtube" and key:
+        return (
+            f'<iframe width="560" height="315" src="https://www.youtube.com/embed/{key}" '
+            f'title="YouTube video player" frameborder="0" '
+            f'allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" '
+            f'referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>'
+        )
+    return ""
+
+
+def infer_media_type(item: dict[str, Any]) -> str:
+    type_media = str(item.get("type", "") or item.get("media_type", "") or "").strip().lower()
+    if type_media in {"film", "movie", "movies"}:
+        return "movie"
+    if type_media in {"series", "tv", "show", "serie", "series_tv"}:
+        return "tv"
+    return "movie"
+
+
+def get_tmdb_details(item: dict[str, Any], session: requests.Session) -> dict[str, Any]:
+    item_id = item.get("id")
+    if not item_id:
+        return {"status": "skip"}
+
+    type_media = infer_media_type(item)
+    item["type"] = type_media
+    item.setdefault("media_type", type_media)
+
+    if type_media in {"film", "movie"}:
+        endpoint = f"https://api.themoviedb.org/3/movie/{item_id}"
+    elif type_media in {"series", "tv", "show", "serie"}:
+        endpoint = f"https://api.themoviedb.org/3/tv/{item_id}"
+    else:
+        print(f"⚠️ Type inconnu pour ID {item_id}, type='{type_media}' → ignoré")
+        return {"status": "skip"}
+
+    print(f"\n🔎 Traitement ID: {item_id} ({type_media})")
+    request_kwargs = build_request_kwargs()
+
+    for attempt in range(1, MAX_ATTEMPTS + 1):
+        try:
+            response = session.get(endpoint, timeout=20, **request_kwargs)
+            response.raise_for_status()
+            data = response.json()
+
+            # --- TITRES & DESCRIPTION ---
+            item["title"] = data.get("title") or data.get("name") or item.get("title", "")
+            item["original_title"] = data.get("original_title") or data.get("original_name") or item.get("title", "")
+            item["description"] = data.get("overview") or ""
+
+            # --- IMAGES ---
+            item["thumbnail"] = build_image_url(data.get("poster_path"))
+            item["backdrop"] = build_image_url(data.get("backdrop_path"))
+
+            # --- DATE DE SORTIE ---
+            release_date = data.get("release_date") or data.get("first_air_date") or ""
+            item["release_date"] = release_date
+
+            # --- MÉTA ---
+            item["runtime"] = data.get("runtime") or data.get("episode_run_time") or ""
+            item["vote_average"] = data.get("vote_average")
+            item["popularity"] = data.get("popularity")
+            item["status"] = data.get("status") or ""
+            item["homepage"] = data.get("homepage") or ""
+            item["language"] = data.get("original_language") or ""
+
+            # --- GENRES TMDB ---
+            genres = [genre.get("name", "") for genre in data.get("genres", []) if genre.get("name")]
+            item["genres"] = genres
+
+            if TAG_MODE == "append":
+                for g in genres:
+                    add_tag(item, g)
+
+            item["production_companies"] = [
+                company.get("name", "") for company in data.get("production_companies", []) if company.get("name")
+            ]
+
+            item["source"] = "TMDb API"
+            item["tmdb_id"] = item_id
+
+            # --- CRÉDITS ---
+            credits_endpoint = f"{endpoint}/credits"
+            try:
+                credits_response = session.get(credits_endpoint, timeout=20, **request_kwargs)
+                if credits_response.ok:
+                    credits_data = credits_response.json()
+                    item["cast"] = [actor.get("name", "") for actor in credits_data.get("cast", [])[:10] if actor.get("name")]
+                    item["director"] = next(
+                        (member.get("name", "") for member in credits_data.get("crew", []) if member.get("job") == "Director"),
+                        "",
+                    )
+                    item["producers"] = [
+                        member.get("name", "")
+                        for member in credits_data.get("crew", [])
+                        if member.get("job") in {"Producer", "Executive Producer"}
+                    ]
+            except Exception as exc:
+                print(f"⚠️ Erreur crédits pour ID {item_id} : {exc}")
+
+            # --- VIDEOS TMDB (Français d'abord, sinon Anglais) ---
+            videos_endpoint = f"https://api.themoviedb.org/3/{'movie' if type_media in {'film', 'movie'} else 'tv'}/{item_id}/videos"
+            try:
+                videos_response = session.get(videos_endpoint, timeout=20, **request_kwargs)
+                if videos_response.ok:
+                    videos_data = videos_response.json()
+                    videos_raw = videos_data.get("results", []) or []
+                    
+                    fr_videos = [v for v in videos_raw if v.get("iso_639_1") == "fr"]
+                    en_videos = [v for v in videos_raw if v.get("iso_639_1") == "en"]
+                    other_videos = [v for v in videos_raw if v not in fr_videos and v not in en_videos]
+                    
+                    videos = fr_videos + en_videos + other_videos
+                    
+                    for video in videos:
+                        if isinstance(video, dict):
+                            video["url_trailer"] = build_video_iframe(video)
+                            video["release_date"] = video.get("published_at", "")
+                            video["date_added"] = video.get("published_at", "")
+                            video["duration"] = video.get("size", "")
+                    
+                    item["videos"] = videos
+                else:
+                    item["videos"] = []
+            except Exception as exc:
+                print(f"⚠️ Erreur videos pour ID {item_id} : {exc}")
+                item["videos"] = []
+
+            # --- PROVIDER STREAMING ---
+            providers_endpoint = f"{endpoint}/watch/providers"
+            try:
+                providers_response = session.get(providers_endpoint, timeout=20, **request_kwargs)
+                if providers_response.ok:
+                    providers_data = providers_response.json()
+
+                    results = providers_data.get("results", {}) or {}
+                    country_data = results.get("FR") or results.get("CA") or next(iter(results.values()), {})
+                    flatrate = country_data.get("flatrate", [])
+                    provider_names = [p.get("provider_name") for p in flatrate if p.get("provider_name")]
+
+                    main_provider = provider_names[0] if provider_names else ""
+
+                    # embed.provider
+                    if "embed" not in item:
+                        item["embed"] = {}
+
+                    item["embed"]["provider"] = main_provider
+                    ensure_embed_url(item, main_provider)
+
+                    # Ajouter provider dans tags SANS ÉCRASER
+                    add_tag(item, main_provider)
+
+            except Exception as exc:
+                print(f"⚠️ Erreur providers pour ID {item_id} : {exc}")
+
+            print(f"✔ Titre : {item['title']}")
+            print(f"✔ Provider : {item['embed'].get('provider', '')}")
+            print(f"✔ Tags : {item['tags']}")
+            return {"status": "ok"}
+
+        except Exception as exc:
+            print(f"❌ Erreur ID {item_id}: {exc}")
+            log_error(str(exc))
+            return {"status": "error", "message": str(exc)}
+
+
+session = create_session()
+
+with open(INPUT_FILE, "r", encoding="utf-8") as fh:
+    data = json.load(fh)
+
+normalized_items: list[dict[str, Any]] = []
+
+for index, item in enumerate(data, start=1):
+    result = get_tmdb_details(item, session)
+    if result.get("status") == "ok":
+        normalized_items.append(build_normalized_item(item))
+    if index % SAVE_EVERY_N_ITEMS == 0:
+        save_data(normalized_items, OUTPUT_FILE)
+        print(f"💾 Sauvegarde intermédiaire à l'entrée {index}")
+    if REQUEST_DELAY_SECONDS > 0:
+        time.sleep(REQUEST_DELAY_SECONDS)
+
+save_data(normalized_items, OUTPUT_FILE)
+print(f"\n✅ Terminé ! Fichier sauvegardé : {OUTPUT_FILE}")
