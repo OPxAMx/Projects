@@ -25,7 +25,29 @@ IFRAME_SRC_RE = re.compile(r"src=[\"'](https?://[^\"']+)[\"']")
 TRAILING_COMMA_RE = re.compile(r",(\s*[}\]])")
 
 
-def normalize_vidking_url(value: str) -> str:
+def strip_json_comments(text: str) -> str:
+    """Remove JS/JSONC comments so the file can be parsed as JSON."""
+    text = re.sub(r"/\*.*?\*/", "", text, flags=re.S)
+    text = re.sub(r"(?m)^\s*//.*$", "", text)
+    return text
+
+
+def get_content_id_from_object(obj: Any) -> str | None:
+    if not isinstance(obj, dict):
+        return None
+
+    for key in ("tmdb_id", "tmdbId", "tmdb", "id"):
+        value = obj.get(key)
+        if isinstance(value, (int, str)):
+            text = str(value).strip()
+            if text:
+                match = re.search(r"\d+", text)
+                if match:
+                    return match.group(0)
+    return None
+
+
+def normalize_vidking_url(value: str, fallback_id: str | None = None) -> str:
     """Return a normalized Vidking embed URL or unchanged string."""
     if not isinstance(value, str):
         return value
@@ -33,7 +55,7 @@ def normalize_vidking_url(value: str) -> str:
     iframe_match = IFRAME_SRC_RE.search(value)
     if iframe_match:
         original_url = iframe_match.group(1)
-        normalized_url = normalize_vidking_url(original_url)
+        normalized_url = normalize_vidking_url(original_url, fallback_id=fallback_id)
         return value.replace(original_url, normalized_url, 1)
 
     if "vidking.net/embed/" not in value:
@@ -58,10 +80,13 @@ def normalize_vidking_url(value: str) -> str:
     else:
         return value
 
-    id_candidates = [p for p in parts[1:] if re.fullmatch(r"\d+", p)]
-    if id_candidates:
-        media_id = id_candidates[-1]
+    if fallback_id:
+        media_id = fallback_id
     else:
+        numeric_parts = [p for p in parts[1:] if re.fullmatch(r"\d+", p)]
+        media_id = numeric_parts[-1] if numeric_parts else ""
+
+    if not media_id:
         matches = re.findall(r"\d+", path)
         media_id = matches[-1] if matches else ""
 
@@ -74,10 +99,12 @@ def normalize_vidking_url(value: str) -> str:
     return f"https://www.vidking.net/embed/{canonical_kind}/{media_id}"
 
 
-def normalize_value(value: Any) -> bool:
+def normalize_value(value: Any, fallback_id: str | None = None) -> bool:
     changed = False
 
     if isinstance(value, dict):
+        object_fallback_id = fallback_id or get_content_id_from_object(value)
+
         # Normalize type if present
         if "type" in value and isinstance(value["type"], str):
             low = value["type"].strip().lower()
@@ -91,7 +118,7 @@ def normalize_value(value: Any) -> bool:
         # Normalize iframe/url inside this object
         for key in ("iframe", "url"):
             if key in value and isinstance(value[key], str):
-                new_value = normalize_vidking_url(value[key])
+                new_value = normalize_vidking_url(value[key], fallback_id=object_fallback_id)
                 if new_value != value[key]:
                     value[key] = new_value
                     changed = True
@@ -102,7 +129,7 @@ def normalize_value(value: Any) -> bool:
             embed = value["embed"]
             for key in ("iframe", "url"):
                 if key in embed and isinstance(embed[key], str):
-                    new_value = normalize_vidking_url(embed[key])
+                    new_value = normalize_vidking_url(embed[key], fallback_id=object_fallback_id)
                     if new_value != embed[key]:
                         embed[key] = new_value
                         embed_changed = True
@@ -111,12 +138,12 @@ def normalize_value(value: Any) -> bool:
 
         # Recurse into nested content
         for child in value.values():
-            if isinstance(child, (dict, list)) and normalize_value(child):
+            if isinstance(child, (dict, list)) and normalize_value(child, fallback_id=object_fallback_id):
                 changed = True
 
     elif isinstance(value, list):
         for item in value:
-            if isinstance(item, (dict, list)) and normalize_value(item):
+            if isinstance(item, (dict, list)) and normalize_value(item, fallback_id=fallback_id):
                 changed = True
 
     return changed
@@ -128,19 +155,27 @@ def repair_json_text(text: str) -> str:
     return text
 
 
-def process_file(path: Path, dry_run: bool = False) -> int:
+def process_file(path: Path, dry_run: bool = False, output_path: Path | None = None) -> tuple[int, Path | None]:
     with path.open("r", encoding="utf-8") as fh:
         text = fh.read()
 
-    repaired = repair_json_text(text)
+    repaired = repair_json_text(strip_json_comments(text))
     data = json.loads(repaired)
 
     changed = normalize_value(data)
     if changed and not dry_run:
-        with path.open("w", encoding="utf-8") as fh:
+        if output_path is None:
+            output_path = path.with_name("Update.json")
+            if output_path.resolve() == path.resolve():
+                output_path = path.with_name(f"{path.stem}_Update.json")
+
+        output_path.parent.mkdir(parents=True, exist_ok=True)
+        with output_path.open("w", encoding="utf-8") as fh:
             json.dump(data, fh, ensure_ascii=False, indent=2)
             fh.write("\n")
-    return 1 if changed else 0
+        return 1, output_path
+
+    return 1 if changed else 0, None
 
 
 def main() -> None:
@@ -167,11 +202,20 @@ def main() -> None:
     changed_count = 0
     for path in files_to_process:
         try:
-            count = process_file(path, dry_run=args.dry_run)
+            output_path = None
+            if not args.dry_run:
+                if len(files_to_process) == 1:
+                    output_path = path.parent / "Update.json"
+                else:
+                    output_path = path.with_name(f"{path.stem}_Update.json")
+
+            count, saved_path = process_file(path, dry_run=args.dry_run, output_path=output_path)
             changed_count += count
             status = "changed" if count else "unchanged"
             if args.dry_run and count:
                 print(f"[would change] {path}")
+            elif saved_path:
+                print(f"[{status}] {path} -> {saved_path}")
             else:
                 print(f"[{status}] {path}")
         except Exception as exc:

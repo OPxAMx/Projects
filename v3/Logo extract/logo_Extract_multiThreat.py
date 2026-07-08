@@ -44,6 +44,10 @@ def fetch_logos(tmdb_id):
 
 
 def process_item(item):
+    existing_logos = item.get("logos")
+    if isinstance(existing_logos, list) and len(existing_logos) == 0:
+        return item, item.get("tmdb_id"), []
+
     tmdb_id = item.get("tmdb_id")
     if tmdb_id:
         logos = fetch_logos(tmdb_id)

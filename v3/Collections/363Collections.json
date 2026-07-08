@@ -1,14 +1,14 @@
 [
   {
     "id": "9485",
-    "title": "Fast and Furious - Saga",
+    "title": "Fast & Furious - Saga",
     "cover": "https://image.tmdb.org/t/p/w500/z5A5W3WYJc3UVEWljSGwdjDgQ0j.jpg",
     "count": 12,
     "description": "Fast and Furious est une série de films d'action avec comme toile de fond les courses de rue illégales et des braquages.",
     "posters": [
       {
         "src": "https://image.tmdb.org/t/p/w500/riIa9UIxyhhOBIXI8vhpWmcesGB.jpg",
-        "alt": "Fast and Furious"
+        "alt": "Fast & Furious"
       },
       {
         "src": "https://image.tmdb.org/t/p/w500/7t9FcL0wKVWCi6vq8Mv8R4tSLzj.jpg",
@@ -20,7 +20,7 @@
       },
       {
         "src": "https://image.tmdb.org/t/p/w500/7STjb7RLFODxHc9ZcskgQTOGdG5.jpg",
-        "alt": "Fast and Furious"
+        "alt": "Fast & Furious"
       }
     ],
     "extra": 8
