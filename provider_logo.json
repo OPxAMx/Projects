@@ -1,15 +1,55 @@
+{
 "provider_logo": [
-    "Amazon Prime Video": "https://media.themoviedb.org/t/p/h60/w7HfLNm9CWwRmAMU58udl2L7We7.png", "https://media.themoviedb.org/t/p/h100_filter(negate,000,666)/w7HfLNm9CWwRmAMU58udl2L7We7.png",
-    "Prime Video": "",
-    "Netflix": "https://media.themoviedb.org/t/p/h60/wwemzKWzjKYJFfCeiB57q3r4Bcm.png", "https://media.themoviedb.org/t/p/h100_filter(negate,000,666)/wwemzKWzjKYJFfCeiB57q3r4Bcm.png",
+ {    
+    "name": "Amazon Prime Video",
+    "url": "https://media.themoviedb.org/t/p/h60/w7HfLNm9CWwRmAMU58udl2L7We7.png", "https://media.themoviedb.org/t/p/h100_filter(negate,000,666)/w7HfLNm9CWwRmAMU58udl2L7We7.png"
+},
+ {   
+    "Apple TV": "https://media.themoviedb.org/t/p/h100_filter(negate,000,666)/bngHRFi794mnMq34gfVcm9nDxN1.png"
+},
+ {   
+    "AMC": "https://media.themoviedb.org/t/p/h100_filter(negate,000,666)/hECpNxPnJowi91GQ1uAXevmk2g1.png"
+},
+{   
+    "Columbia Pictures": ""
+},
+{
+    "Crave": "https://media.themoviedb.org/t/p/h60/xlVkcuR2NqruUHh8gPaAw9BvOCT.png", "https://media.themoviedb.org/t/p/h100_filter(negate,000,666)/xlVkcuR2NqruUHh8gPaAw9BvOCT.png"
+},
+{
+    "Crunchyroll Amazon Channel": ""
+},
+{
+
+
+    "Discovery +": "",
     "Disney Plus": "https://media.themoviedb.org/t/p/h100_filter(negate,000,666)/1edZOYAfoyZyZ3rklNSiUpXX30Q.png", "https://media.themoviedb.org/t/p/h60/1edZOYAfoyZyZ3rklNSiUpXX30Q.png",
-    "Crave": "https://media.themoviedb.org/t/p/h60/xlVkcuR2NqruUHh8gPaAw9BvOCT.png", "https://media.themoviedb.org/t/p/h100_filter(negate,000,666)/xlVkcuR2NqruUHh8gPaAw9BvOCT.png",
-    "Paramount Plus": "https://media.themoviedb.org/t/p/h60/fi83B1oztoS47xxcemFdPMhIzK.png", "https://media.themoviedb.org/t/p/h100_filter(negate,000,666)/fi83B1oztoS47xxcemFdPMhIzK.png",
-    "Apple TV": "https://media.themoviedb.org/t/p/h100_filter(negate,000,666)/bngHRFi794mnMq34gfVcm9nDxN1.png",
-    "AppleTV": "",
-    "AMC": "https://media.themoviedb.org/t/p/h100_filter(negate,000,666)/hECpNxPnJowi91GQ1uAXevmk2g1.png",
+    "DC Films": "",
+    
     "HBO Max": "https://media.themoviedb.org/t/p/h60/nmU0UMDJB3dRRQSTUqawzF2Od1a.png",
-    "LucasArt": "https://media.themoviedb.org/t/p/h60/tlVSws0RvvtPBwViUyOFAO0vcQS.png", "https://media.themoviedb.org/t/p/h100_filter(negate,000,666)/tlVSws0RvvtPBwViUyOFAO0vcQS.png",
+    
+    "Lucasfilm Ltd.": "https://media.themoviedb.org/t/p/h60/tlVSws0RvvtPBwViUyOFAO0vcQS.png", "https://media.themoviedb.org/t/p/h100_filter(negate,000,666)/tlVSws0RvvtPBwViUyOFAO0vcQS.png",
+    "Lionsgate+ Amazon Channels": "",
+
     "Marvel Studio": "https://media.themoviedb.org/t/p/h60/hUzeosd33nzE5MCNsZxCGEKTXaQ.png", "https://media.themoviedb.org/t/p/h100_filter(negate,000,666)/hUzeosd33nzE5MCNsZxCGEKTXaQ.png",
-    "TUBI": "https://media.themoviedb.org/t/p/h60/8OAFRLPQ4w888UDkDtnXpdnRfEQ.png",
+    "MTV Films": "",
+    "MUBI": "",
+    "MGM Amazon Channel": "",
+
+    "Netflix": "https://media.themoviedb.org/t/p/h60/wwemzKWzjKYJFfCeiB57q3r4Bcm.png", "https://media.themoviedb.org/t/p/h100_filter(negate,000,666)/wwemzKWzjKYJFfCeiB57q3r4Bcm.png",
+    "New Line Cinema": "",
+    
+    "Paramount Plus": "https://media.themoviedb.org/t/p/h60/fi83B1oztoS47xxcemFdPMhIzK.png", "https://media.themoviedb.org/t/p/h100_filter(negate,000,666)/fi83B1oztoS47xxcemFdPMhIzK.png",
+    "Paramount Pictures": "",
+
+    "Touchstone Pictures": ""
+},
+{    "TUBI": "https://media.themoviedb.org/t/p/h60/8OAFRLPQ4w888UDkDtnXpdnRfEQ.png"
+},
+{    
+    "Universal Pictures": ""
+},
+ {   
+    "Warner Bros. Pictures": ""
+}
 ]
